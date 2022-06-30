@@ -1,27 +1,104 @@
 ﻿@using Microsoft.AspNetCore.Identity
 @using Shop.Areas.Identity.Data
+@using Shop.Areas.Identity.Pages.Account
 @inject SignInManager<ShopUser> SignInManager
 @inject UserManager<ShopUser> UserManager
 
-<ul class="navbar-nav">
+
 @if (SignInManager.IsSignedIn(User))
 {
-    <li class="nav-item">
-        <a  class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @User.Identity?.Name!</a>
-    </li>
-    <li class="nav-item">
-        <form  class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
-            <button  type="submit" class="nav-link btn btn-link text-dark">Logout</button>
-        </form>
-    </li>
+    <div class="settings" id="settings">
+        <div class="exit">
+            <form asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Page("/", new { area = "" })" method="post">
+                <button type="submit">Вийти</button>
+            </form>
+            <a href="#"><img src="/img/delete.png" alt="exit" id="exit"></a>
+        </div>
+        <div class="menu-catalog">
+            <a href="#">Каталог товарів</a>
+            <a href="#">Кошик</a>
+            <a href="#">Акції</a>
+                <a href="#">Мої замолення</a>
+                <a href="#">Список бажань</a>
+                <a href="#">Переглянуті товари</a>
+                <a href="#">Мої відгуки</a>
+                <a href="#">Налаштування</a>
+    </div>
+    <div class="help">
+     <span>Гаряча лінія</span>
+     <span>380673283244</span>
+    </div>
+</div>
+ <div class="menu" id="menu">
+     <span class="menu-line"></span>
+     <span class="menu-line"></span>
+     <span class="menu-line"></span>
+ </div>
+    <div class="catalog">
+        <a href="/Home/Index"><img img src="/img/catalog.png" alt="catalog">Головна</a>
+    </div>
+    <div class="catalog">
+        <a href="catalog.html"><img src="/img/catalog.png" alt="catalog">Каталог</a>
+    </div>
+    <form action="">
+         <label for="search"></label>
+        <input type="text" placeholder="Я шукаю.." id="search"/>
+        <input type="submit" value="Знайти"/>
+    </form>
+    <div class="catalog">
+        <a  id="head-login" href="#" class="login"><img src="/img/log-in.png" alt="catalog" id="enter">Увійти</a>
+    </div>
+    <div class="basket" id="ref-basket" onclick="RedirectToBasket('@UserManager.GetUserId(User)')" >
+        <div id="basket" class="ad">
+            <span id="count"></span>
+        </div>
+     </div>
 }
-else
-{
-    <li class="nav-item">
-        <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Register">Register</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login">Login</a>
-    </li>
+else{
+    <div class="settings" id="settings">
+        <div class="exit">
+            <span>Авторизуйтесь для отримання розширених можливостей</span>
+            <a href="#"><img src="/img/delete.png" alt="exit" id="exit"></a>
+        </div>
+        <div class="sing-or-register">
+            <img src="/img/log-in.png" alt="enter">
+            <a href="/Identity/Account/Login" id="login" class="login">Увійти</a>
+            <div class="line"></div>
+            <a href="#" id="register">Зареєструватися</a>
+        </div>
+        <div class="menu-catalog">
+            <a href="#">Каталог товарів</a>
+            <a href="#">Кошик</a>
+            <a href="#">Акції</a>
+    </div>
+    <div class="help">
+     <span>Гаряча лінія</span>
+     <span>380673283244</span>
+    </div>
+</div>
+ <div class="menu" id="menu">
+     <span class="menu-line"></span>
+     <span class="menu-line"></span>
+     <span class="menu-line"></span>
+ </div>
+    <div class="catalog">
+        <a href="@Url.Action("Index")"><img img src="/img/catalog.png" alt="catalog">Головна</a>
+    </div>
+    <div class="catalog">
+        <a href="catalog.html"><img src="/img/catalog.png" alt="catalog">Каталог</a>
+    </div>
+    <form action="">
+         <label for="search"></label>
+        <input type="text" placeholder="Я шукаю.." id="search"/>
+        <input type="submit" value="Знайти"/>
+    </form>
+    <div class="catalog">
+        <a  id="head-login" href="/Identity/Account/Login" class="login"><img src="/img/log-in.png" alt="catalog" id="enter">Увійти</a>
+    </div>
+    <div class="basket" id="ref-basket">
+        <div id="basket" class="ad">
+            <span id="count"></span>
+        </div>
+     </div>
 }
-</ul>
+

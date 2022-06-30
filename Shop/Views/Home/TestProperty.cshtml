@@ -1,0 +1,35 @@
+﻿@model dynamic
+
+
+@{
+    ViewData["Title"] = "Create property";
+}
+
+ 
+<form class="form-elements"  method="post" asp-controller="Home" asp-action="CreateProductPage">
+
+          <label for="Type">Main category</label>
+        <select name="type.Id">
+            @foreach(var item in Model.Type){
+                <option value="@item.Id">@item.Type</option>
+            }
+        </select>
+         <label for="Category">Sub category</label>
+        <select name="category.Id" id="Category">
+            @foreach(var item in Model.Category){
+                <option value="@item.Id">@item.Name</option>
+            }
+        </select>
+        
+        <button type="submit">Submit</button>
+</form>
+
+<script>
+    let type = document.getElementById('Type');
+    type.addEventListener('change',function(event){
+       alert(event.target.id);
+    });
+    function GetId(Id){
+        alert(Id);
+    }
+</script>

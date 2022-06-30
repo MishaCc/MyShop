@@ -1,0 +1,129 @@
+
+.same>{
+  span,a{
+    display: flex;
+    height: 5%;
+    justify-content: center;
+    align-items: center;
+  }
+  .same-product-wrap{
+    height: 98%;
+    width: 100%;
+    display:grid;
+    grid-template-rows: 25% 25% 25% 25%;
+     .same-product{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-wrap: wrap;
+       flex-direction: row;
+        width: 100%;
+       height: 100%;
+       box-sizing: border-box;
+       border-bottom:1px solid lightgray;
+       a{
+         height: 20%;
+         width: 80%;
+         &:hover{
+           transition:0.2s;
+           text-decoration: underline;
+           color:blueviolet;
+         }
+       }
+       .picture{
+         width: 45%;
+         height: 50%;
+         img,a{
+           width: 100%;
+           height: 100%;
+         }
+       }
+     }
+  }
+}
+.character{
+  display: none;
+}
+.reviews{
+   height: 205vh;
+  display: none;
+  .write{
+    display: flex;
+    height: 5%;
+    width: 50%;
+    margin: 10px auto;
+    align-items: center;
+    border:1px solid lightgray;
+    justify-content: space-evenly;
+    span,button{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width:40%;
+      height: 50%;
+    }
+  }
+  .review{
+     width: 60%;
+     display: grid;
+    grid-template-rows: 10% 30% 30% 30%;
+    margin: 15px auto;
+    border:1px solid lightgray;
+    height: 400px;
+    background: linear-gradient(36deg, rgba(248,253,255,1) 0%, rgba(204,204,204,0.2) 0%);
+    border-radius: 5px;
+    .user-info{
+      padding: 0 5px 0 5px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid lightgray;
+      a{
+        padding: 5px;
+        color:white;
+        border-radius: 5px;
+        background-color: blueviolet;
+      }
+      span:first-child{
+      }
+    }
+    .comment,.advantages,.disadvantages{
+      padding: 0 10px 0 10px;
+
+      overflow: scroll;
+      word-break: break-word;
+      overflow-x: hidden;
+      span:first-child{
+        margin-top: 10px;
+      }
+      span:last-child{
+        height: 65%;
+      }
+    }
+    .disadvantages,.advantages{
+      display: flex;
+      flex-wrap: wrap;
+      span:first-child{
+        width: 100%;
+        height: 15%;
+        font-size: 18px;
+      }
+    }
+    .comment{
+      display: flex;
+    }
+  }
+}
+::-webkit-scrollbar {
+  width: 10px;
+  height: 8px;
+  background-color: #CCCCCC;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #99CCCC;
+  border-radius: 5px;
+  &:hover{
+    transition: 0.2s;
+    background-color: #339999;
+  }
+}

@@ -1,6 +1,10 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Shop.ModelHelpers;
 using Shop.Areas.Identity.Data;
+using Shop.Interfaces;
+using Shop.MyServices;
+using Shop.Paging;
 
 var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("ApplicationContextConnection") ?? throw new InvalidOperationException("Connection string 'ApplicationContextConnection' not found.");
@@ -9,7 +13,10 @@ builder.Services.AddDbContext<ApplicationContext>(options =>
     options.UseSqlServer(connectionString));;
 
 builder.Services.AddDefaultIdentity<ShopUser>(options => options.SignIn.RequireConfirmedAccount = true)
-    .AddEntityFrameworkStores<ApplicationContext>();;
+    .AddEntityFrameworkStores<ApplicationContext>();
+builder.Services.AddScoped<IProductRepo, ProductRepository>();
+builder.Services.AddScoped<PageInfo>();
+builder.Services.AddRazorPages();
 
 // Add services to the container.
 

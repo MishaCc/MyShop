@@ -1,8 +1,46 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿@model dynamic
+@inject SignInManager<ShopUser> SignInManager
+@inject UserManager<ShopUser> UserManager
+@inject IProductRepo repository
+@inject PageInfo Info
+@using Shop.Interfaces
+@using Shop.Paging;
+@using Microsoft.AspNetCore.Identity
+@using Shop.Areas.Identity.Data
+@using Shop.Areas.Identity.Pages.Account
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+<div class="body" id="body">
+ <div class="goods">
+        <div class="like">
+            <a href="" ><img src="/img/heart.png" alt="his"></a>
+        </div>
+        <div class="photo">
+            <img src="/img/252192898.jpg" alt="goods" id="examp" onclick="Redirect()">
+        </div>
+        <a href="#">Ноутбук Lenovo V14 G2 ALS</a>
+        <span>20 900₴</span>
+        <button class="goods-add" id="test" onclick="AddProduct(0,'324-qwes-fff')">Додати в кошик</button>
+    </div>
+    @foreach (var item in Model.Product)
+    {
+        <div class="goods">
+            <div class="like">
+                <a href=""><img src="/img/heart.png" alt="his"></a>
+            </div>
+            <div class="photo">
+                <img src="data:image/jpeg;base64,@(Convert.ToBase64String(repository.GetPhotoById(@item.Id)))" alt="goods"/>
+            </div>
+            <a href="#" onclick="test()">@item.Name</a>
+            <span>@item.Price</span>
+            <button class="goods-add" id="@item.Id" onclick="AddProduct(@item.Id,'@UserManager.GetUserId(User)')">Додати в кошик</button>
+        </div>
+    }
+    <form id="pageForm" class="paginate">
+       @for(int i=1;i<=@Info.GetTotalPage(@Model.Count,15);i++){
+           @if(i==1){<input type="hidden" id="pageId" name="page"/>}
+               <button id="@i" onclick="GetId(@i)">@i</button>
+       }
+   </form>
 </div>
+

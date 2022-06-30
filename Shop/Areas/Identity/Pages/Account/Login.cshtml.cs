@@ -16,6 +16,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 using Shop.Areas.Identity.Data;
 
+
 namespace Shop.Areas.Identity.Pages.Account
 {
     public class LoginModel : PageModel
@@ -116,6 +117,7 @@ namespace Shop.Areas.Identity.Pages.Account
                 if (result.Succeeded)
                 {
                     _logger.LogInformation("User logged in.");
+                    Console.WriteLine("user logged in");
                     return LocalRedirect(returnUrl);
                 }
                 if (result.RequiresTwoFactor)
@@ -135,6 +137,7 @@ namespace Shop.Areas.Identity.Pages.Account
             }
 
             // If we got this far, something failed, redisplay form
+            
             return Page();
         }
     }
