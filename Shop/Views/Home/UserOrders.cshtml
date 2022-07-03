@@ -1,0 +1,36 @@
+﻿@model dynamic
+
+@if(@Model!=null){
+<div><span>Ваші замовлення</span></div>
+ <div>
+  <table>
+  <thead>
+   <tr>
+      <th>Назва продукту</th>
+	  <th>Ціна</th>
+	  <th>Адрес доставки</th><!--Y-->
+	   <th>Відправкник</th><!--Y-->
+	   <th>Звязок з відправником</th>
+	   <th>Спосіб оплати</th><!--Y-->
+	   <th>Дії</th>
+   </tr>
+  </thead>
+  <tbody>
+   @foreach(var item in Model){
+    <tr>
+	  <td>@item.ProductName</td>
+	  <td>@item.Price</td>
+	  <td>@item.SendAdress</td>
+	  <td>@item.Sender</td>
+	  <td>@item.Number</td>
+	  <td>@item.PaymentMethod</td>
+	  <td>
+	   <button>Замовленяя виконано</button>
+	   <button>Відізвати замовлення</button>
+	  </td>
+	</tr>
+   }
+  </tbody>
+  </table>
+ </div>
+ }else{<div><span>У вас немає замовлень</span></div>}

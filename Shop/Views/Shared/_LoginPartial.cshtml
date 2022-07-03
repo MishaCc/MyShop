@@ -21,8 +21,9 @@
                 <a href="#">Мої замолення</a>
                 <a href="#">Список бажань</a>
                 <a href="#">Переглянуті товари</a>
-                <a href="#">Мої відгуки</a>
+                <a href="/Home/UserOrders?UserId=@UserManager.GetUserId(User)">Мої замовлення</a>
                 <a href="#">Налаштування</a>
+				<a href="/Home/OrderRequest?UserId=@UserManager.GetUserId(User)">Requests</a>
     </div>
     <div class="help">
      <span>Гаряча лінія</span>
@@ -50,7 +51,7 @@
     </div>
     <div class="basket" id="ref-basket" onclick="RedirectToBasket('@UserManager.GetUserId(User)')" >
         <div id="basket" class="ad">
-            <span id="count"></span>
+            <span id="count">4</span>
         </div>
      </div>
 }
@@ -97,7 +98,7 @@ else{
     </div>
     <div class="basket" id="ref-basket">
         <div id="basket" class="ad">
-            <span id="count"></span>
+            <span id="count">4</span>
         </div>
      </div>
 }

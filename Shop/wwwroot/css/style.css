@@ -382,13 +382,13 @@ header form{
 }
 .menu-catalog a:hover{
     transition: 0.4s;
-    background-color: blueviolet;
+    background-color:yellow;
 }
 #basket{
     border-radius: 50%;
+	background-color:yellow;
 }
 .ad{
-    transition: 0.3s;
     position: relative;
     opacity: 0;
     left:25px;
@@ -813,3 +813,115 @@ h2{
     flex-wrap: wrap;
 }
 
+table td,th{
+	border-bottom:1px solid lightgray;
+}
+table td,th{
+	padding:10px;
+	
+	text-align:center;
+}
+.same > span, .same > a {
+  display: flex;
+  height: 5%;
+  justify-content: center;
+  align-items: center; }
+.same > .same-product-wrap {
+  height: 98%;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 25% 25% 25% 25%; }
+  .same > .same-product-wrap .same-product {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border-bottom: 1px solid lightgray; }
+    .same > .same-product-wrap .same-product a {
+      height: 20%;
+      width: 80%; }
+      .same > .same-product-wrap .same-product a:hover {
+        transition: 0.2s;
+        text-decoration: underline;
+        color: blueviolet; }
+    .same > .same-product-wrap .same-product .picture {
+      width: 45%;
+      height: 50%; }
+      .same > .same-product-wrap .same-product .picture img, .same > .same-product-wrap .same-product .picture a {
+        width: 100%;
+        height: 100%; }
+
+.character {
+  display: none; }
+
+.reviews {
+  height: 205vh;
+  display: none; }
+  .reviews .write {
+    display: flex;
+    height: 5%;
+    width: 50%;
+    margin: 10px auto;
+    align-items: center;
+    border: 1px solid lightgray;
+    justify-content: space-evenly; }
+    .reviews .write span, .reviews .write button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40%;
+      height: 50%; }
+  .reviews .review {
+    width: 60%;
+    display: grid;
+    grid-template-rows: 10% 30% 30% 30%;
+    margin: 15px auto;
+    border: 1px solid lightgray;
+    height: 400px;
+    background: linear-gradient(36deg, #f8fdff 0%, rgba(204, 204, 204, 0.2) 0%);
+    border-radius: 5px; }
+    .reviews .review .user-info {
+      padding: 0 5px 0 5px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid lightgray; }
+      .reviews .review .user-info a {
+        padding: 5px;
+        color: white;
+        border-radius: 5px;
+        background-color: blueviolet; }
+    .reviews .review .comment, .reviews .review .advantages, .reviews .review .disadvantages {
+      padding: 0 10px 0 10px;
+      overflow: scroll;
+      word-break: break-word;
+      overflow-x: hidden; }
+      .reviews .review .comment span:first-child, .reviews .review .advantages span:first-child, .reviews .review .disadvantages span:first-child {
+        margin-top: 10px; }
+      .reviews .review .comment span:last-child, .reviews .review .advantages span:last-child, .reviews .review .disadvantages span:last-child {
+        height: 65%; }
+    .reviews .review .disadvantages, .reviews .review .advantages {
+      display: flex;
+      flex-wrap: wrap; }
+      .reviews .review .disadvantages span:first-child, .reviews .review .advantages span:first-child {
+        width: 100%;
+        height: 15%;
+        font-size: 18px; }
+    .reviews .review .comment {
+      display: flex; }
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 8px;
+  background-color: #CCCCCC; }
+
+::-webkit-scrollbar-thumb {
+  background-color: #99CCCC;
+  border-radius: 5px; }
+  ::-webkit-scrollbar-thumb:hover {
+    transition: 0.2s;
+    background-color: #339999; }

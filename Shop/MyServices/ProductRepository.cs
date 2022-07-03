@@ -77,17 +77,43 @@ namespace Shop.MyServices
             
             return a;
         }
+		
         public void AddProductInUserBasket(string userId,int productId)
         {
             Basket basket = new Basket()
             {
                 UserId = userId,
                 ProductId = productId,
-                AmountProuduct = 1
+                AmountProuduct=1
             };
             _context.Basket.Add(basket);
             _context.SaveChanges();
         }
+		public dynamic RedirectToBasket(string userId){
+			var result = _context.Basket.Where(a => a.UserId == userId).Join(_context.Product,
+                p => p.ProductId,
+                c => c.Id,
+                (p, c) => new
+                {
+                    UserId = p.UserId,
+                    Name = c.Name,
+                    Id = c.Id,
+                    Price = c.Price,
+					ProductId=p.ProductId
+                });
+				return result;
+		}
+		public bool DetectUserProduct(string userId,int productId){
+			var result = _context.PostedProducts.FirstOrDefault(p=>p.ProductID==productId);
+			if(result==null){
+				return false;
+			}
+			  if(result.UserId==userId){
+				return true;
+			   }else return false;
+			
+			
+		}
         public void UpdateProduct(Product model)
         {
             throw new NotImplementedException();

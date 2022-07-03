@@ -4,7 +4,7 @@
 @inject IProductRepo repository
 @inject PageInfo Info
 @using Shop.Interfaces
-@using Shop.Paging;
+@using Shop.Paging
 @using Microsoft.AspNetCore.Identity
 @using Shop.Areas.Identity.Data
 @using Shop.Areas.Identity.Pages.Account
@@ -24,6 +24,7 @@
     </div>
     @foreach (var item in Model.Product)
     {
+	@if(@item.Amount!=0){
         <div class="goods">
             <div class="like">
                 <a href=""><img src="/img/heart.png" alt="his"></a>
@@ -31,10 +32,14 @@
             <div class="photo">
                 <img src="data:image/jpeg;base64,@(Convert.ToBase64String(repository.GetPhotoById(@item.Id)))" alt="goods"/>
             </div>
-            <a href="#" onclick="test()">@item.Name</a>
+            <a href="/Home/ProductPage?productId=@item.Id">@item.Name</a>
             <span>@item.Price</span>
-            <button class="goods-add" id="@item.Id" onclick="AddProduct(@item.Id,'@UserManager.GetUserId(User)')">Додати в кошик</button>
+            <span style="color:green;">У наявности</span>
+			@if(repository.DetectUserProduct(@UserManager.GetUserId(User),@item.Id)){
+            <a>Ваш продукт</a>
+			}else{<button class="goods-add" id="@item.Id" onclick="AddProduct(@item.Id,'@UserManager.GetUserId(User)')">Додати в кошик</button>}
         </div>
+		}
     }
     <form id="pageForm" class="paginate">
        @for(int i=1;i<=@Info.GetTotalPage(@Model.Count,15);i++){

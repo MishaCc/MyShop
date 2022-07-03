@@ -1,0 +1,140 @@
+﻿@model dynamic
+
+@{
+    int a = 0;
+}
+
+<h2>TEXT</h2>
+<div class="about-product">
+    <a href="#" class="product-menu" id="product">Товар</a>
+    <a href="#" class="product-menu" id="more">Характеристики</a>
+    <a href="#" class="product-menu" id="reviews">Відгуки</a>
+</div>
+@foreach(var item in Model.ProductInfo){
+ @if(a==0){
+<div class="product-wrap" id="product-wrap">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<div class="product-photo">
+        <div class="product-photos">
+            <div id="carouselExampleControls" class="carousel slide carousel-dark" data-bs-touch="false" data-bs-interval="false">
+                <div class="carousel-inner">
+				@foreach(var photo in Model.Photo){
+                    <div class="carousel-item active">
+                        <img src="data:image/jpeg;base64,@(Convert.ToBase64String(photo.Img))" class="d-block w-130" alt="...">
+                    </div>
+					}
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="info">
+            <div class="product-price">
+                <span><img src="img/the-sum-of.png" alt="">20 900₴</span>
+                <a href="#"><span><img src="img/trolley.png" alt="">В коpзину</span></a>
+                <a href="#"><span><img src="img/search.png" alt="">Оформити замовлення</span></a>
+            </div>
+            <div class="garantee">
+                <span>Додаткові функції</span>
+                <label for="1year"><input type="radio" id="1year" name="year">Продовження гарантії на 1 рiк 1 309
+                    ₴</label>
+                <label for="2yeaer"><input type="radio" id="2yeaer" name="year">Продовження гарантії на 2 роки 2 499
+                    ₴</label>
+            </div>
+            <div class="seller">
+                <span class="up">Данні для звязку з продавцем</span>
+                <span>Продавець</span>
+                <span>Номер</span>
+                <span>Пошта</span>
+                <span>Rozerka</span>
+                <span>38063728394</span>
+                <span>name.surname@gmail.com</span>
+                <span class="up">Соц.мережі</span>
+                <span>Telegram</span>
+                <span>WhatsApp</span>
+                <span>Viber</span>
+                <a href="#"><img src="img/telegram.png" alt=""></a>
+                <a href="#"><img src="img/whatsapp.png" alt=""></a>
+                <a href="#"><img src="img/viber.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+ </div>
+ }
+<div class="character" id="characteristics-block">
+    <div class="desk">
+        <span>@item.TiteleS</span>
+    </div>
+    <div class="about-desk">
+        <span>@item.TitleD</span>
+    </div>
+    </div>
+    a++;
+}
+<div class="reviews" id="review">
+     <div class="write">
+         <span>Залиште свій відгук про цей товар</span>
+         <button>Написати відгук</button>
+     </div>
+    <div class="review">
+      <div class="user-info">
+          <span>Bekker Mikhailo</span>
+          <span>15.06.2022</span>
+          <a href="#">Поскаржитись</a>
+      </div>
+      <div class="comment">
+          <span>At culpa dolor dolore ducimus eligendi eos, facere libero nihil nostrum numquam placeat provident quod repellat, vel velit voluptatibus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto quas quibusdam repellendus similique tempora? Eius enim est, eum fugiat illo incidunt inventore, natus reiciendis repellendus repudiandae soluta ut voluptates voluptatibus. Animi incidunt mollitia nam nihil odit qui sunt totam! Aperiam deleniti exercitationem possimus quae quod reiciendis tempore veniam, voluptate. Itaque laborum, ratione.</span>
+      </div>
+        <div class="advantages">
+            <span>Переваги</span>
+            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, accusamus autem deleniti ea exercitationem facere in ipsa labore nam natus nobis non praesentium, quo quod repellendus similique suscipit ut. Reiciendis.</span>
+        </div>
+        <div class="disadvantages">
+            <span>Недоліки</span>
+            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet architecto aut autem delectus eius enim expedita fuga fugiat harum ipsam iusto nemo, nisi odio placeat praesentium quaerat qui rem veritatis.</span>
+        </div>
+    </div>
+    <div class="review">
+      <div class="user-info">
+          <span>Bekker Mikhailo</span>
+          <span>15.06.2022</span>
+          <a href="#">Поскаржитись</a>
+      </div>
+      <div class="comment">
+          <span>At culpa dolor dolore ducimus eligendi eos, facere libero nihil nostrum numquam placeat provident quod repellat, vel velit voluptatibus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto quas quibusdam repellendus similique tempora? Eius enim est, eum fugiat illo incidunt inventore, natus reiciendis repellendus repudiandae soluta ut voluptates voluptatibus. Animi incidunt mollitia nam nihil odit qui sunt totam! Aperiam deleniti exercitationem possimus quae quod reiciendis tempore veniam, voluptate. Itaque laborum, ratione.</span>
+      </div>
+        <div class="advantages">
+            <span>Переваги</span>
+            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, accusamus autem deleniti ea exercitationem facere in ipsa labore nam natus nobis non praesentium, quo quod repellendus similique suscipit ut. Reiciendis.</span>
+        </div>
+        <div class="disadvantages">
+            <span>Недоліки</span>
+            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet architecto aut autem delectus eius enim expedita fuga fugiat harum ipsam iusto nemo, nisi odio placeat praesentium quaerat qui rem veritatis.</span>
+        </div>
+    </div>
+    <div class="review">
+      <div class="user-info">
+          <span>Bekker Mikhailo</span>
+          <span>15.06.2022</span>
+          <a href="#">Поскаржитись</a>
+      </div>
+      <div class="comment">
+          <span>At culpa dolor dolore ducimus eligendi eos, facere libero nihil nostrum numquam placeat provident quod repellat, vel velit voluptatibus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto quas quibusdam repellendus similique tempora? Eius enim est, eum fugiat illo incidunt inventore, natus reiciendis repellendus repudiandae soluta ut voluptates voluptatibus. Animi incidunt mollitia nam nihil odit qui sunt totam! Aperiam deleniti exercitationem possimus quae quod reiciendis tempore veniam, voluptate. Itaque laborum, ratione.</span>
+      </div>
+        <div class="advantages">
+            <span>Переваги</span>
+            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, accusamus autem deleniti ea exercitationem facere in ipsa labore nam natus nobis non praesentium, quo quod repellendus similique suscipit ut. Reiciendis.</span>
+        </div>
+        <div class="disadvantages">
+            <span>Недоліки</span>
+            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet architecto aut autem delectus eius enim expedita fuga fugiat harum ipsam iusto nemo, nisi odio placeat praesentium quaerat qui rem veritatis.</span>
+        </div>
+    </div>
+</div>

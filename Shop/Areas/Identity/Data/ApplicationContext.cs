@@ -27,6 +27,10 @@ public class ApplicationContext : IdentityDbContext<ShopUser>
     public DbSet<UsersPostedProduct> PostedProducts { get; set; }
     public DbSet<SpecificationDescription> Descriptions { get; set; }
     public DbSet<Photo> Photo { get; set; }
+	public DbSet<OrderProduct>  OrderProducts {get;set;}
+	public DbSet<UserDeliveryRequest> UserDeliveryRequests{ get;set;}
+    public DbSet<UserOreders> UserOreders { get; set; }
+	
     protected override void OnModelCreating(ModelBuilder builder)
     {
         base.OnModelCreating(builder);

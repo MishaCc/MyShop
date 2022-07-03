@@ -18,13 +18,37 @@ let registPassword = document.getElementById('regist-password');
 let help = document.getElementById('login-regist');
 let text = document.getElementById("test");
 let buttonGoods = document.getElementsByClassName('goods-add');
+let buttonsProducts =  document.getElementsByClassName('BasketProduct');
 
+function DeleteProductFromBasket(id){
+     let result = confirm("Ви дісйно хочетe видалити цей продукт?");
+	 if(result){
+	for(let i=0;i<buttonsProducts.length;i++){
+		if(id==buttonsProducts[i].id){
+			buttonsProducts[i].style.display='none';
+		}
+	}
+		$.ajax({
+        type: 'POST',
+        url: '/Home/DeleteProductFromBaket',
+        data: {productId:id},
+        });
+	 }
+}
 function AddProduct(productId, userId) {
+ 
     $.ajax({
         type: 'POST',
         url: '/Home/AddProduct',
         data: { UserId: userId, ProductId: productId }
     });
+	 for(let i=0;i<buttonGoods.length;i++){
+		if(productId==buttonGoods[i].id){
+			buttonGoods[i].style.background='green';
+			buttonGoods[i].innerHTML='Додано';
+            buttonGoods[i].setAttribute('disabled');
+		}
+	}
 }
 function RedirectToBasket(id) {
     $.ajax({

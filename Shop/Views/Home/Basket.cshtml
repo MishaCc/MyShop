@@ -20,22 +20,16 @@
         </div>
         @foreach (var item in Model.Product)
         {
-            <div>
+            <div class="BasketProduct" id="@item.ProductId">
                 <img src="data:image/jpeg;base64,@(Convert.ToBase64String(repository.GetPhotoById(@item.Id)))" alt="goods">
                 <span><a href="#">@item.Name</a></span>
                 <span><img src="/img/the-sum-of.png" alt="">@item.Price</span>
                 <div class="action">
-                    <a href="#">Оформити заказ</a>
-                    <a href="#">Видалити</a>
+                    <a href="/Home/СheckoutPage?ProductId=@item.ProductId">Оформити замовлення</a>
+                    <a href="#" onclick="DeleteProductFromBasket(@item.ProductId)">Видалити</a>
                 </div>
             </div>
         }
     </div>
 }
 
-@*<form id="pageForm" class="paginate">
-    @for(int i=1;i<=@Info.GetTotalPage(@Model.Count(),5);i++){
-    @if(i==1){<input type="hidden" id="pageId" name="page"/>}
-    <button id="@i" onclick="GetId(@i)">@i</button>
-    }
-    </form>*@

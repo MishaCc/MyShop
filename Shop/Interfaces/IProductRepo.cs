@@ -17,5 +17,7 @@ namespace Shop.Interfaces
         public void DeleteProduct(int id);
         public byte[] GetPhotoById(int id);
         public void AddProductInUserBasket(string UserId, int ProductId);
+		public dynamic RedirectToBasket(string userId);
+		public bool DetectUserProduct(string UserId,int productId);
     }
 }

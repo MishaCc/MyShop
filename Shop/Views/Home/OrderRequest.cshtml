@@ -1,0 +1,35 @@
+﻿@model dynamic
+
+@if(Model!=null){
+<div><span>Пройдить в найближече відділення вказаної пошти для відправки товару</span>
+<span>Замовлення буде помічено "виконане", коли замовник отримає товар</span>
+</div>
+ <div>
+  <table>
+  <thead>
+   <tr>
+      <th>Імя</th>
+	  <th>Призвіще</th>
+	  <th>Адрес доставки</th>
+	   <th>Назва продукту</th>
+	   <th>Звязок</th>
+	   <th>Спосіб оплати</th>
+	   <th>Номер карти</th>
+   </tr>
+  </thead>
+  <tbody>
+   @foreach(var item in Model){
+    <tr>
+	  <td>@item.UserName</td>
+	  <td>@item.LastName</td>
+	  <td>@item.SendAdress</td>
+	  <td>@item.ProductName</td>
+	  <td>@item.Number</td>
+	  <td>@item.PaymentMethod</td>
+	  <td>Null</td>
+	</tr>
+   }
+  </tbody>
+  </table>
+ </div>
+ }else{<div><span>Запитів на відправку немає</span></div>}

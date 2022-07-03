@@ -1,0 +1,35 @@
+﻿@model dynamic
+@inject UserManager<ShopUser> UserManager
+@using Microsoft.AspNetCore.Identity
+@using Shop.Areas.Identity.Data
+@using Shop.Areas.Identity.Pages.Account
+
+  <div><span>Замовлення</span></div>
+ <div class="form" id="regist">
+    <form method="post" class="form-elements" asp-controller="Home" asp-action="MakeOrder">
+        <label for="location">Місто доставки</label>
+		<input list="location" name="Location"/>
+		<datalist id="location">
+		<option value="Житомир"></option>
+		<option value="Київ"></option>
+		<option value="Одеса"></option>
+		<option value="Херсон"></option>
+		<option value="Львів"></option>
+		<option value="Вінниця"></option>
+		</datalist>
+		<label for="postOffice">Поштове відділення</label>
+		<input type="text" name="PostOffice" id="postOffice"/>
+		<label for="number">Номер телефону для звязку</label>
+		<input type="number" name="Number" id="number"/>
+		<span for="">Спосіб оплати</span>
+		<label for="Card">Оплата картою</label>
+		<input type="radio" name="PaymentMethod" value="Card" id="Card" />
+		<label for="Cash">Оплата при отриманні</label>
+		<input type="radio" name="PaymentMethod" value="Cash" id="Cash"/>
+	    <input type="hidden" name="CardNumber" id="cardNumber" />
+		<input type="hidden" name="ProductId" id="productId" value="@Model.Product.Id"/>
+		<input type="hidden" name="UserId" id="productId" value="@UserManager.GetUserId(User)"/>
+		<input type="hidden" name="Sum" id="sum" value="@Model.Product.Price"/>
+        <button id="postSubmit" type="submit">Замовити</button>
+    </form>
+ </div>
