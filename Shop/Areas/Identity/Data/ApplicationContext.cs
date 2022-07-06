@@ -30,6 +30,8 @@ public class ApplicationContext : IdentityDbContext<ShopUser>
 	public DbSet<OrderProduct>  OrderProducts {get;set;}
 	public DbSet<UserDeliveryRequest> UserDeliveryRequests{ get;set;}
     public DbSet<UserOreders> UserOreders { get; set; }
+	public DbSet<Requests> Requests{get;set;}
+	public DbSet<Complain> Complains {get;set;}
 	
     protected override void OnModelCreating(ModelBuilder builder)
     {

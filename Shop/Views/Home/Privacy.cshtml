@@ -8,8 +8,8 @@
 
 
 
-<form method="post" enctype = "multipart/form-data" asp-controller="Home" asp-action="CreateProduct">
-    <input name="file" type="file" id="file" />
+<form method="post" asp-controller="Home" asp-action="AddPhoto" enctype = "multipart/form-data">
+    <input name="photos" type="file" id="photo"  multiple/>
         <button type="submit">Add</button>
 </form>
     

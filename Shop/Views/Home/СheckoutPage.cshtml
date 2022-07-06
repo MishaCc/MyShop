@@ -1,12 +1,13 @@
 ﻿@model dynamic
 @inject UserManager<ShopUser> UserManager
+@inject SignInManager<ShopUser> SignInManager
 @using Microsoft.AspNetCore.Identity
 @using Shop.Areas.Identity.Data
 @using Shop.Areas.Identity.Pages.Account
-
-  <div><span>Замовлення</span></div>
- <div class="form" id="regist">
-    <form method="post" class="form-elements" asp-controller="Home" asp-action="MakeOrder">
+@if (SignInManager.IsSignedIn(User))
+{
+<div class="mainTitle"><span>Оформлення замовлення</span></div>
+    <form method="post" class="checkout" asp-controller="Home" asp-action="MakeOrder">
         <label for="location">Місто доставки</label>
 		<input list="location" name="Location"/>
 		<datalist id="location">
@@ -21,15 +22,19 @@
 		<input type="text" name="PostOffice" id="postOffice"/>
 		<label for="number">Номер телефону для звязку</label>
 		<input type="number" name="Number" id="number"/>
-		<span for="">Спосіб оплати</span>
-		<label for="Card">Оплата картою</label>
-		<input type="radio" name="PaymentMethod" value="Card" id="Card" />
-		<label for="Cash">Оплата при отриманні</label>
-		<input type="radio" name="PaymentMethod" value="Cash" id="Cash"/>
-	    <input type="hidden" name="CardNumber" id="cardNumber" />
+		<div clas="unitC" id='unitC'>
+                <label for="Card">Kартою</label>
+                <input type="radio" name="PaymentMethod" value="Card" id="Card" />
+                <label for="Cash">При отриманні</label>
+                <input type="radio" name="PaymentMethod" value="Cash" id="Cash"/>
+         </div>
+		 <input type="text" name="CardNumber" id="card">
 		<input type="hidden" name="ProductId" id="productId" value="@Model.Product.Id"/>
 		<input type="hidden" name="UserId" id="productId" value="@UserManager.GetUserId(User)"/>
 		<input type="hidden" name="Sum" id="sum" value="@Model.Product.Price"/>
         <button id="postSubmit" type="submit">Замовити</button>
     </form>
- </div>
+}else{
+<div><span>Для оформелння замовлення пройдить <a href="/Identity/Account/Register">реєстрацію</a> або
+<a href="/Identity/Account/Login" id="login" class="login">авторизуйтесь</a></span></div>
+}

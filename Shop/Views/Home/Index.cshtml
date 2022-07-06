@@ -9,37 +9,35 @@
 @using Shop.Areas.Identity.Data
 @using Shop.Areas.Identity.Pages.Account
 
-
+@if (SignInManager.IsSignedIn(User))
+{
 <div class="body" id="body">
- <div class="goods">
-        <div class="like">
-            <a href="" ><img src="/img/heart.png" alt="his"></a>
-        </div>
-        <div class="photo">
-            <img src="/img/252192898.jpg" alt="goods" id="examp" onclick="Redirect()">
-        </div>
-        <a href="#">Ноутбук Lenovo V14 G2 ALS</a>
-        <span>20 900₴</span>
-        <button class="goods-add" id="test" onclick="AddProduct(0,'324-qwes-fff')">Додати в кошик</button>
-    </div>
     @foreach (var item in Model.Product)
     {
-	@if(@item.Amount!=0){
         <div class="goods">
             <div class="like">
-                <a href=""><img src="/img/heart.png" alt="his"></a>
+
             </div>
             <div class="photo">
                 <img src="data:image/jpeg;base64,@(Convert.ToBase64String(repository.GetPhotoById(@item.Id)))" alt="goods"/>
             </div>
             <a href="/Home/ProductPage?productId=@item.Id">@item.Name</a>
-            <span>@item.Price</span>
-            <span style="color:green;">У наявности</span>
-			@if(repository.DetectUserProduct(@UserManager.GetUserId(User),@item.Id)){
-            <a>Ваш продукт</a>
-			}else{<button class="goods-add" id="@item.Id" onclick="AddProduct(@item.Id,'@UserManager.GetUserId(User)')">Додати в кошик</button>}
+            <span class="price">@item.Price₴</span>
+			@if(@item.Amount!=0){
+			<span class="e">У наявности</span>
+			  @if(repository.DetectUserProduct(@UserManager.GetUserId(User),@item.Id)){
+			   <span>Ваш продукт</span>
+			   }
+			   @if(repository.CheckBasket(@UserManager.GetUserId(User),@item.Id)){
+                <span>Додано в кошик</span>
+                 }else if(repository.DetectUserProduct(@UserManager.GetUserId(User),@item.Id)==false){
+				    <button class="goods-add" id="@item.Id" onclick="AddProduct(@item.Id,'@UserManager.GetUserId(User)')">Додати в кошик</button>
+				 }
+			}else{
+			<span class="nothing">Немає в наявности</span>
+			}
+			
         </div>
-		}
     }
     <form id="pageForm" class="paginate">
        @for(int i=1;i<=@Info.GetTotalPage(@Model.Count,15);i++){
@@ -48,4 +46,30 @@
        }
    </form>
 </div>
+}else{
+<div class="body" id="body">
+    @foreach (var item in Model.Product)
+    {
+        <div class="goods">
+            <div class="like">
 
+            </div>
+            <div class="photo">
+                <img src="data:image/jpeg;base64,@(Convert.ToBase64String(repository.GetPhotoById(@item.Id)))" alt="goods"/>
+            </div>
+            <a href="/Home/ProductPage?productId=@item.Id">@item.Name</a>
+            <span>@item.Price₴</span>
+			@if(@item.Amount!=0){
+			<span style="color:green;">У наявности</span>
+			}else{<span style="color:green;">Немає в наявности</span>}
+			<a href="/Home/СheckoutPage?ProductId=@item.Id" class="ordered">Оформити замовлення</a>
+        </div>
+    }
+    <form id="pageForm" class="paginate">
+       @for(int i=1;i<=@Info.GetTotalPage(@Model.Count,15);i++){
+           @if(i==1){<input type="hidden" id="pageId" name="page"/>}
+               <button id="@i" onclick="GetId(@i)">@i</button>
+       }
+   </form>
+</div>
+}

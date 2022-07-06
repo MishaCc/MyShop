@@ -1,0 +1,36 @@
+﻿@model dynamic
+
+
+
+<div class="about-product">
+   <a href="/Home/ProductPage?productId=@Model.ProductId" class="product-menu" id="product">Товар</a>
+    <a href="/Home/Characteristics?productId=@Model.ProductId" class="product-menu" id="more">Характеристики</a>
+    <a href="/Home/Requests?productId=@Model.ProductId" class="product-menu" id="reviews">Відгуки</a>
+</div>
+<div class="character" id="characteristics-block">
+    <div class="desk">
+	@foreach(var item in Model.Char){
+        <span>@item.Property</span>
+		}
+    </div>
+    <div class="about-desk">
+	@foreach(var item in Model.Char){
+        <span>@item.Desc</span>
+		}
+    </div>
+
+    <div class="same">
+        <span class="h">Схожі товари за ціною</span>
+		
+        <div class="same-product-wrap">
+		@foreach(var item in Model.Same){
+            <div class="same-product">
+                <div class="picture">
+                    <a ><img src="data:image/jpeg;base64,@(Convert.ToBase64String(@item.Img))" alt=""></a>
+                </div>
+                <a href="#">@item.Name</a>
+            </div>
+			}
+        </div>
+    </div>
+</div>

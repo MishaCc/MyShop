@@ -1,0 +1,11 @@
+﻿@model IEnumerable<Shop.Models.Category>
+
+
+<div class="catalog-wrapper">
+@foreach(var item in Model){
+        <div>
+		    <a href="/Home/Search?request=@item.Name"><img src="data:image/jpeg;base64,@(Convert.ToBase64String(@item.Img))" alt=""></a>
+            <span><a href="/Home/Search?request=@item.Name">@item.Name</a></span>
+        </div>
+		}
+ </div>

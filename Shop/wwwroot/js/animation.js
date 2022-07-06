@@ -19,7 +19,65 @@ let help = document.getElementById('login-regist');
 let text = document.getElementById("test");
 let buttonGoods = document.getElementsByClassName('goods-add');
 let buttonsProducts =  document.getElementsByClassName('BasketProduct');
+let showRequest = document.getElementById('writeRequest');
+let requestForm =document.getElementById('requestForm');
+let exitRf = document.getElementById('exitRf');
+let exitCp = document.getElementById('exitCp');
+let сomplainForm = document.getElementById('сomplainForm');
+let showComplain =  document.getElementById('showComplain');
+let card = document.getElementById('card');
+ let unitBlock = document.getElementById('unitC');
+ let CardRadio = document.getElementById('Card');
+ let CashRadio = document.getElementById('Cash');
+ let loginP = document.getElementById('showLogin');
+ let logP = document.getElementById('password');
+ window.addEventListener('click',function(event){
+	 if(event.target.id==loginP.id){
+	   logP.setAttribute('type', 'text');
+	 }else {
+        logP.setAttribute('type', 'password');
+    }
+    
+ });
+window.addEventListener('click',function(event){
+	 if(event.target.id==CashRadio.id){
+  	   card.style.display ='none';
+	 }
+	  if(event.target.id==CardRadio.id){
+  	   card.style.display ='block';
+	 }
+	
+ });
+window.addEventListener('click',function(event){
+	if(event.target.id==showRequest.id){
+		requestForm.style.display='block';
+	}
+	if(event.target.id==exitRf.id){
+		requestForm.style.display='none';
+	}
 
+	if(event.target.id==exitCp.id){
+		сomplainForm.style.display='none';
+	}
+});
+ let completed = document.getElementsByClassName('Completed');
+ function ComletedOrders(id){
+ $.ajax({
+        type: 'POST',
+        url: '/Home/ToComplete',
+        data: {ProductId:id},
+        });
+  	for(let i=0;i<completed.length;i++){
+		 if(id==completed[i].id){
+			completed[i].style.display='none';
+			completed[i].after('Помічено як виконане');
+			}
+		}
+}
+function Complain(id){
+	$(UserIdCompain).val(id);
+	сomplainForm.style.display='block';
+}
 function DeleteProductFromBasket(id){
      let result = confirm("Ви дісйно хочетe видалити цей продукт?");
 	 if(result){
@@ -36,7 +94,7 @@ function DeleteProductFromBasket(id){
 	 }
 }
 function AddProduct(productId, userId) {
- 
+	
     $.ajax({
         type: 'POST',
         url: '/Home/AddProduct',
@@ -44,9 +102,7 @@ function AddProduct(productId, userId) {
     });
 	 for(let i=0;i<buttonGoods.length;i++){
 		if(productId==buttonGoods[i].id){
-			buttonGoods[i].style.background='green';
-			buttonGoods[i].innerHTML='Додано';
-            buttonGoods[i].setAttribute('disabled');
+			buttonGoods[i].style.display='none';
 		}
 	}
 }

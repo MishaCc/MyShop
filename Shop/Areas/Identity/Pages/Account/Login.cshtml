@@ -9,13 +9,14 @@
 <form class="form-elements" id="account" method="post"asp-area="Identity" asp-page="/Account/Login">
         <label for="login-in">Логин</label>
         <input asp-for="Input.Email" autocomplete="username" aria-required="true" />
+		<span asp-validation-for="Input.Email" class="text-danger"></span>
         <label for="login-in">Пароль</label>
         <input id="password" asp-for="Input.Password" aria-required="true" />
-        <div class="text"><input type="checkbox" id="show" class="show">Показати пароль</div>
+		<span asp-validation-for="Input.Password" class="text-danger"></span>
+        <div class="text" id="showLogin"><input type="checkbox" id="show" class="show">Показати пароль</div>
         <input id="login-submit" type="submit" value="Увійти"/>
         <div class="help">
         <a asp-page="/Identity/Account/Register">Зареєструватися</a>
-        <a href="#" id="password-help">Не пям'ятаю пароль</a>
         </div>
 </form>
 </div>

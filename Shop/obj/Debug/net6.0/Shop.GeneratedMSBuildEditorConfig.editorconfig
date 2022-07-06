@@ -47,6 +47,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCYXNrZXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/bekke/source/repos/Shop/Shop/Views/Home/Catalog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXRhbG9nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bekke/source/repos/Shop/Shop/Views/Home/Characteristics.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaGFyYWN0ZXJpc3RpY3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bekke/source/repos/Shop/Shop/Views/Home/ChooseCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaG9vc2VDYXRlZ29yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/bekke/source/repos/Shop/Shop/Views/Home/CreateProductPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVhdGVQcm9kdWN0UGFnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -67,8 +79,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9kdWN0UGFnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bekke/source/repos/Shop/Shop/Views/Home/TestProperty.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUZXN0UHJvcGVydHkuY3NodG1s
+[C:/Users/bekke/source/repos/Shop/Shop/Views/Home/Requests.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZXF1ZXN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bekke/source/repos/Shop/Shop/Views/Home/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWFyY2guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/bekke/source/repos/Shop/Shop/Views/Home/UserOrders.cshtml]
@@ -81,6 +97,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/bekke/source/repos/Shop/Shop/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/bekke/source/repos/Shop/Shop/Views/Shared/TypePartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFR5cGVQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/bekke/source/repos/Shop/Shop/Views/Shared/_LoginPartial.cshtml]

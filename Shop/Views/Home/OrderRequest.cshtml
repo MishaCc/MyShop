@@ -1,11 +1,13 @@
 ﻿@model dynamic
+@using Shop.Interfaces
+@inject IProductRepo repository
 
 @if(Model!=null){
-<div><span>Пройдить в найближече відділення вказаної пошти для відправки товару</span>
+<div class="center"><span>Пройдить в найближече відділення вказаної пошти для відправки товару</span>
 <span>Замовлення буде помічено "виконане", коли замовник отримає товар</span>
 </div>
  <div>
-  <table>
+  <table class="ReT">
   <thead>
    <tr>
       <th>Імя</th>
@@ -14,7 +16,7 @@
 	   <th>Назва продукту</th>
 	   <th>Звязок</th>
 	   <th>Спосіб оплати</th>
-	   <th>Номер карти</th>
+	   <th>Статус</th>
    </tr>
   </thead>
   <tbody>
@@ -26,10 +28,12 @@
 	  <td>@item.ProductName</td>
 	  <td>@item.Number</td>
 	  <td>@item.PaymentMethod</td>
-	  <td>Null</td>
+	  @if(repository.IsCompleted(@item.ProductId)){
+	      <td style="color:green;">Виконане</td>
+	  }else{<td style="color:orange;">Не виконане</td>}
 	</tr>
    }
   </tbody>
   </table>
  </div>
- }else{<div><span>Запитів на відправку немає</span></div>}
+ }else{<div class="center"><span>Запитів на відправку немає</span></div>}

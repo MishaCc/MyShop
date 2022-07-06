@@ -1,0 +1,80 @@
+﻿@model dynamic
+@inject SignInManager<ShopUser> SignInManager
+@inject UserManager<ShopUser> UserManager
+@using Microsoft.AspNetCore.Identity
+@using Shop.Areas.Identity.Data
+@using Shop.Areas.Identity.Pages.Account
+@using Shop.Interfaces
+@inject IProductRepo repository
+
+<div class="about-product">
+    <a href="/Home/ProductPage?productId=@Model.ProductId" class="product-menu" id="product">Товар</a>
+    <a href="/Home/Characteristics?productId=@Model.ProductId" class="product-menu" id="more">Характеристики</a>
+    <a href="/Home/Requests?productId=@Model.ProductId" class="product-menu" id="reviews">Відгуки</a>
+</div>
+<div class="form" id="requestForm">
+    <form asp-controller="Home" asp-action="CreateRequest">
+	 <span id="exitRf">X</span>
+	   <input type="hidden" name="UserId" value="@UserManager.GetUserId(User)"/>
+       <input type ="hidden" name="ProductId" value="@Model.ProductId"/>
+	   <label for="description">Коментар</label>
+	    <textarea type="text" id="description" name="Description" placeholder="Коментар.." required minlength="15">
+		</textarea>
+		 <label for="Adventages">Переваги</label>
+	    <textarea id="Adventages" name="Adventages" placeholder="Переваги..." required minlength="6">
+		</textarea>
+		<label for="DisAdventages">Недоліки</label>
+	     <textarea id="DisAdventages" name="DisAdventages" placeholder="Недоліки..." required minlength="6">
+		</textarea>
+		<button type="submit">Відправити</button>
+	</form>
+</div>
+<div class="reviews" id="review">
+    <div class="write">
+    @if (SignInManager.IsSignedIn(User))
+    {
+            @if (repository.DetectUserProduct(@UserManager.GetUserId(User), @Model.ProductId))
+            {
+                <span>Відгуки про ваш товар</span>
+            }
+            else
+
+            {
+                <span>Залиште свій відгук про цей товар</span>
+                <button>Написати відгук</button>
+            }
+    }else{<span>Щоб написати відгук про товар потрбіно увійти або зареєструватися</span>}
+    </div>
+    @foreach(var item in Model.Requests){
+    <div class="review">
+      <div class="user-info">
+          <span>@item.Name</span>
+          <span>@item.PostTime</span>
+          <a href="#" onclick="Complain('@item.Id')" id="showComplain">Поскаржитись</a>
+      </div>
+      <div class="comment">
+          <span>@item.Description</span>
+      </div>
+        <div class="advantages">
+            <span>Переваги</span>
+            <span>@item.Adventages</span>
+        </div>
+        <div class="disadvantages">
+            <span>@item.DisAdventages</span>
+            <span></span>
+        </div>
+    </div>
+    }
+</div>
+
+<div class="form" id="сomplainForm">
+    <form asp-controller="Home" asp-action="CreateComplain">
+	 <span id="exitCp">X</span>
+	   <input type="hidden" name="UserId" id="UserIdCompain"/>
+	    <label for="Category">Категорія</label>
+	    <input type="text" name="Category" placeholder="Наприклад:ненормативна лексика" required/>
+		<label for="Description">Уточнення</label>
+	    <input type="text" name="Description" placeholder="Наприклад:в недоліках вжита ненормативна лексика" required/>
+		<button type="submit">Відправити</button>
+	</form>
+</div>

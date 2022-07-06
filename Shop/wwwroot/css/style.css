@@ -21,10 +21,16 @@ body>*{
         transform: translateX(-339px);
     }
 }
+.UserOrders{
+	margin-top:20px;
+	width:100%;
+	display:flex;
+	justify-content:center;
+}
 a{
     font-family: "Gill Sans", sans-serif;
-    text-decoration: none;
-    color:black;
+    text-decoration: none!important;
+    color:black!important;
 }
 span{
     font-size: 15px;
@@ -127,12 +133,15 @@ header form{
 }
 .body{
     height: 180vh;
-    background-color: lightpink;
+    background-color: white;
     display: grid;
     gap:10px;
     grid-template-columns: 19% 19%  19%  19%  19%;
     grid-template-rows: 350px 350px 350px 100px;
-    border: 1px solid yellow;
+}
+.userExit{
+	background:none;
+	border:none;
 }
 .paginate{
     margin-left: 15px;
@@ -159,7 +168,7 @@ header form{
         background-color: #00FF33;
     }
 .goods{
-    background-color: snow;
+    background-color:#CCCCFF;
     height: 100%;
     margin-left: 15px;
     margin-top: 15px;
@@ -168,6 +177,44 @@ header form{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.e{
+	font-size:15px;
+	color:green;
+}
+.goods span{
+	width:100%;
+	text-align:center;
+}
+.goods span:not([class="price"]){
+	font-size:17px!important;
+}
+#card{
+	display:none;
+}
+.unitC{
+	display:flex;
+	background-color:yellow;
+}
+.ordered{
+	border:1px solid lightgray;
+	border-radius:10px;
+	display:flex;
+	align-items:center;
+	padding:5px;
+	background:#00FF00;
+	margin-bottom:5px;
+}
+.nothing{
+	font-size:13px;
+	color:gray;
+}
+.AlreadyAdd{
+	display:none;
+	font-size:16px;
+	border:1px solid yellow:
+	border-radius:5px;
 }
 .like{
     width: 100%;
@@ -196,8 +243,9 @@ header form{
     color: black;
 }
 .goods a:hover{
-    transition: 0.3s;
-    color: blueviolet;
+    transition: 0.2s;
+    color:blueviolet!important;
+	text-decoration:underline!important;
 }
 .goods span{
     font-size: 25px;
@@ -419,9 +467,45 @@ header form{
     padding:10px;
     border-radius: 5px;
     z-index: 10;
- 
 }
+textarea{
+	resize:none;
+	height:100px;
+}
+#сomplainForm{
+	position:absolute;
+	top:100px;
+    left:500px;
+	display:block;
+	z-index:10;
+	background-color:white;
+	border:1px solid black;
+	display:none;
+	width:300px!important;
+	height:300px!important;
+}
+#сomplainForm input{
+	height:60px;
+}
+#requestForm{
+	 display:none;
+	 height:500px;
+	 top:50px;
+	 position:absolute;
+	 background-color:white;
+	 z-index:10;
+	 left:450px;
+	 border:1px solid black;
+	 border-radius:5px;
+}
+#requestForm form,#сomplainForm form{
+   display:flex;
+   flex-direction:column;
+   gap:5px;
+}
+#requestForm form button{
 
+}
 .form:nth-child(3) .form-elements input[type='submit']{
     margin-top: 10px;
 }
@@ -527,6 +611,7 @@ header form{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+	justify-content:center;
     border-radius: 5px;
     width: 100%;
     height: 100%;
@@ -547,11 +632,7 @@ header form{
     transition: 0.3s;
     color: blueviolet;
 }
-.catalog-wrapper div img{
-    box-sizing: border-box;
-    height: 100%;
-    width: 100%;
-}
+
 .catalog-wrapper span{
     width: 100%;
     height: 15%;
@@ -560,7 +641,7 @@ header form{
     background-color: #fff207;
     margin-top: 12px;
     width: 100%;
-    height: 70%;
+    height: 120px!important;
 }
 .body-basket{
     align-items: center;
@@ -658,6 +739,13 @@ h2{
 }
 .about-product a:hover{
     border-bottom: 1px solid lightslategray;
+}
+.carousel-item{
+   margin-left:30px!important;
+}
+.carousel-item img{
+	width:80%!important;
+	height:400px!important;
 }
 .product-photo {
     margin-top: 10px;
@@ -779,6 +867,7 @@ h2{
 }
 .character div:first-child{
     width: 25%;
+
 }
 .character div:first-child span{
     margin-left: 10px;
@@ -804,13 +893,17 @@ h2{
     text-align: center;
     width: 95%;
 }
+
 .same a{
-  width: 5%;
+	text-align:center;
+  width: 100%;
+
 }
 .same{
     width: 45%;
     display:flex;
     flex-wrap: wrap;
+	justify-content:center;
 }
 
 table td,th{
@@ -819,6 +912,12 @@ table td,th{
 table td,th{
 	padding:10px;
 	
+	text-align:center;
+}
+.center{
+	width:100%;
+	margin-top:5px;
+	font-size:25px;
 	text-align:center;
 }
 .same > span, .same > a {
@@ -849,18 +948,19 @@ table td,th{
         text-decoration: underline;
         color: blueviolet; }
     .same > .same-product-wrap .same-product .picture {
-      width: 45%;
+      width: 100%;
       height: 50%; }
       .same > .same-product-wrap .same-product .picture img, .same > .same-product-wrap .same-product .picture a {
         width: 100%;
         height: 100%; }
 
 .character {
-  display: none; }
+  display: flex;
+  }
 
 .reviews {
   height: 205vh;
-  display: none; }
+  display: block; }
   .reviews .write {
     display: flex;
     height: 5%;
@@ -914,6 +1014,59 @@ table td,th{
     .reviews .review .comment {
       display: flex; }
 
+.CreteProduct{
+    width: 100%;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+}
+.CreateProductForm{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+.CreateProductForm label{
+    margin-top: 10px;
+}
+.CreteProduct button{
+    margin-top:10px;
+    width: 100%;
+}
+.category button{
+    margin-top:5px;
+}
+.category{
+    margin: 0 auto;
+    width: 300px;
+}
+.mainTitle span{
+    padding-bottom: 5px;
+    border-bottom: 1px solid lightgray;
+    font-size: 35px;
+}
+.mainTitle{
+    margin-top: 10px;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+.checkout label{
+    margin-top: 5px;
+}
+.checkout{
+    margin: 20px auto;
+    width:22%;
+    gap:5px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
 ::-webkit-scrollbar {
   width: 10px;
   height: 8px;
@@ -925,3 +1078,4 @@ table td,th{
   ::-webkit-scrollbar-thumb:hover {
     transition: 0.2s;
     background-color: #339999; }
+	

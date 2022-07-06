@@ -2,12 +2,10 @@
 
 
 @{
-    ViewData["Title"] = "Create property";
+    ViewData["Title"] = "Категорія";
 }
-
- 
-<form class="form-elements"  method="post" asp-controller="Home" asp-action="CreateProductPage">
-
+<div class="mainTitle"><span>Оберіть категорію</span></div>
+<form class="form-elements category"  method="post" asp-controller="Home" asp-action="CreateProductPage">
           <label for="Type">Main category</label>
         <select name="type.Id">
             @foreach(var item in Model.Type){
@@ -20,16 +18,5 @@
                 <option value="@item.Id">@item.Name</option>
             }
         </select>
-        
-        <button type="submit">Submit</button>
+        <button type="submit">Далі</button>
 </form>
-
-<script>
-    let type = document.getElementById('Type');
-    type.addEventListener('change',function(event){
-       alert(event.target.id);
-    });
-    function GetId(Id){
-        alert(Id);
-    }
-</script>

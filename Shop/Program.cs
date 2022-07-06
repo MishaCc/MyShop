@@ -5,6 +5,7 @@ using Shop.Areas.Identity.Data;
 using Shop.Interfaces;
 using Shop.MyServices;
 using Shop.Paging;
+using Shop.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("ApplicationContextConnection") ?? throw new InvalidOperationException("Connection string 'ApplicationContextConnection' not found.");
@@ -16,6 +17,7 @@ builder.Services.AddDefaultIdentity<ShopUser>(options => options.SignIn.RequireC
     .AddEntityFrameworkStores<ApplicationContext>();
 builder.Services.AddScoped<IProductRepo, ProductRepository>();
 builder.Services.AddScoped<PageInfo>();
+builder.Services.AddScoped<Product>();
 builder.Services.AddRazorPages();
 
 // Add services to the container.

@@ -5,25 +5,22 @@
 @inject UserManager<ShopUser> UserManager
 
 
+
+
 @if (SignInManager.IsSignedIn(User))
 {
     <div class="settings" id="settings">
         <div class="exit">
-            <form asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Page("/", new { area = "" })" method="post">
-                <button type="submit">Вийти</button>
-            </form>
+            <span>Ви увійшли під іменем @UserManager.GetUserName(User)</span>
             <a href="#"><img src="/img/delete.png" alt="exit" id="exit"></a>
         </div>
         <div class="menu-catalog">
-            <a href="#">Каталог товарів</a>
-            <a href="#">Кошик</a>
-            <a href="#">Акції</a>
-                <a href="#">Мої замолення</a>
-                <a href="#">Список бажань</a>
-                <a href="#">Переглянуті товари</a>
-                <a href="/Home/UserOrders?UserId=@UserManager.GetUserId(User)">Мої замовлення</a>
-                <a href="#">Налаштування</a>
-				<a href="/Home/OrderRequest?UserId=@UserManager.GetUserId(User)">Requests</a>
+            <a href="/Home/Catalog">Каталог товарів</a>
+            <a href="#" onclick="RedirectToBasket('@UserManager.GetUserId(User)')">Кошик</a>
+            <a href="/Home/UserOrders?UserId=@UserManager.GetUserId(User)">Мої замовлення</a>
+		    <a href="/Home/OrderRequest?UserId=@UserManager.GetUserId(User)">Запити на замовлення</a>
+			<a href="/Home/ChooseCategory">Створити продукт</a>
+			<a href="/Home/Settings">Налаштування</a>
     </div>
     <div class="help">
      <span>Гаряча лінія</span>
@@ -39,15 +36,19 @@
         <a href="/Home/Index"><img img src="/img/catalog.png" alt="catalog">Головна</a>
     </div>
     <div class="catalog">
-        <a href="catalog.html"><img src="/img/catalog.png" alt="catalog">Каталог</a>
+        <a href="/Home/Catalog"><img src="/img/catalog.png" alt="catalog">Каталог</a>
     </div>
-    <form action="">
+    <form asp-controller="Home" asp-action="Search">
          <label for="search"></label>
-        <input type="text" placeholder="Я шукаю.." id="search"/>
+        <input type="text" placeholder="Я шукаю.." id="search" name="request">
         <input type="submit" value="Знайти"/>
     </form>
     <div class="catalog">
-        <a  id="head-login" href="#" class="login"><img src="/img/log-in.png" alt="catalog" id="enter">Увійти</a>
+        <a  id="head-login" href="#" class="login"><img src="/img/log-in.png" alt="catalog" id="enter">
+		<form asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Page("/Home/Index", new { area = "" })" method="post">
+                <button type="submit" class="userExit">Вийти</button>
+            </form>
+		</a>
     </div>
     <div class="basket" id="ref-basket" onclick="RedirectToBasket('@UserManager.GetUserId(User)')" >
         <div id="basket" class="ad">
@@ -65,12 +66,10 @@ else{
             <img src="/img/log-in.png" alt="enter">
             <a href="/Identity/Account/Login" id="login" class="login">Увійти</a>
             <div class="line"></div>
-            <a href="#" id="register">Зареєструватися</a>
+            <a href="/Identity/Account/Register" id="register">Зареєструватися</a>
         </div>
         <div class="menu-catalog">
-            <a href="#">Каталог товарів</a>
-            <a href="#">Кошик</a>
-            <a href="#">Акції</a>
+            <a href="/Home/Catalog">Каталог товарів</a>
     </div>
     <div class="help">
      <span>Гаряча лінія</span>
@@ -86,20 +85,15 @@ else{
         <a href="@Url.Action("Index")"><img img src="/img/catalog.png" alt="catalog">Головна</a>
     </div>
     <div class="catalog">
-        <a href="catalog.html"><img src="/img/catalog.png" alt="catalog">Каталог</a>
+        <a href="/Home/Catalog"><img src="/img/catalog.png" alt="catalog">Каталог</a>
     </div>
-    <form action="">
+     <form asp-controller="Home" asp-action="Search">
          <label for="search"></label>
-        <input type="text" placeholder="Я шукаю.." id="search"/>
+        <input type="text" placeholder="Я шукаю.." id="search" name="request">
         <input type="submit" value="Знайти"/>
     </form>
     <div class="catalog">
         <a  id="head-login" href="/Identity/Account/Login" class="login"><img src="/img/log-in.png" alt="catalog" id="enter">Увійти</a>
     </div>
-    <div class="basket" id="ref-basket">
-        <div id="basket" class="ad">
-            <span id="count">4</span>
-        </div>
-     </div>
 }
 

@@ -1,0 +1,32 @@
+﻿@model dynamic
+@inject UserManager<ShopUser> UserManager
+@inject IProductRepo repository
+@using Shop.Interfaces
+@using Microsoft.AspNetCore.Identity
+@using Shop.Areas.Identity.Data
+@using Shop.Areas.Identity.Pages.Account
+
+<div class="body" id="body">
+    @foreach (var item in Model)
+    {
+        <div class="goods">
+		<div class="like">
+
+            </div>
+            <div class="photo">
+                <img src="data:image/jpeg;base64,@(Convert.ToBase64String(repository.GetPhotoById(@item.Id)))" alt="goods"/>
+            </div>
+            <a href="/Home/ProductPage?productId=@item.Id">@item.Name</a>
+            <span>@item.Price₴</span>
+			@if(@item.Amount!=0){
+			<span style="color:green;">У наявности</span>
+			}else{<span style="color:green;">Немає в наявности</span>}
+			@if(repository.DetectUserProduct(@UserManager.GetUserId(User),@item.Id)){
+            <a>Ваш продукт</a>
+			}else{<button class="goods-add" id="@item.Id" onclick="AddProduct(@item.Id,'@UserManager.GetUserId(User)')">Додати в кошик</button>}
+        </div>
+    }
+	if(Model==null){
+	  <div class="center">За вашим запитом нічого не найдено</div>
+	}
+</div>

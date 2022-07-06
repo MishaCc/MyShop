@@ -14,12 +14,16 @@
         <input asp-for="Input.UserLogin" autocomplete="UserLogin" aria-required="true" id="login-reg"/>
         <label for="number">Номер телефону</label>
         <input asp-for="Input.PhoneNumber" class="form-control" autocomplete="PhoneNumber" aria-required="true" id="number"/>
+		<span asp-validation-for="Input.PhoneNumber" class="text-danger"></span>
         <label for="email">E-mail</label>
         <input asp-for="Input.Email" class="form-control" autocomplete="Email" aria-required="true"  id="email"/>
+		<span asp-validation-for="Input.Email" class="text-danger"></span>
         <label for="regist-password">Придумайте пароль</label>
         <input asp-for="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" id="regist-password" />
+		<span asp-validation-for="Input.Password" class="text-danger"></span>
         <label for="regist-password">Підтвердження паролю</label>
         <input asp-for="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" />
+		<span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
         <div class="text"><input type="checkbox" id="show-reg" class="show">Показати пароль</div>
         <button id="registerSubmit" type="submit">Зареєструватися</button>
     </form>

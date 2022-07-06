@@ -6,18 +6,16 @@
 @using Shop.Areas.Identity.Pages.Account
 @using Shop.Interfaces;
 @inject SignInManager<ShopUser> SignInManager
-@using Shop.Paging;
+@using Shop.Paging
+
 @{
     ViewData["Title"] = "Basket";
 }
 
 @if (SignInManager.IsSignedIn(User))
 {
+    @if(Model.Product!=null){
     <div class="body-basket">
-        <div class="basket-action">
-            <a href="#"><img src="/img/filter.png" alt=""></a>
-            <a href="#"><img src="/img/trash.png" alt=""></a>
-        </div>
         @foreach (var item in Model.Product)
         {
             <div class="BasketProduct" id="@item.ProductId">
@@ -31,5 +29,8 @@
             </div>
         }
     </div>
+	}else{
+	  <div class="center">Корзина пуста</div>
+	}
 }
 

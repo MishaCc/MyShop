@@ -1,8 +1,10 @@
 ﻿@model dynamic
+@using Shop.Interfaces
+@inject IProductRepo repository
 
 @if(@Model!=null){
-<div><span>Ваші замовлення</span></div>
- <div>
+<div class="center"><span>Ваші замовлення</span></div>
+ <div class="UserOrders">
   <table>
   <thead>
    <tr>
@@ -24,13 +26,13 @@
 	  <td>@item.Sender</td>
 	  <td>@item.Number</td>
 	  <td>@item.PaymentMethod</td>
-	  <td>
-	   <button>Замовленяя виконано</button>
-	   <button>Відізвати замовлення</button>
-	  </td>
+	  @if(repository.IsCompleted(@item.ProductId )){
+	    <td style="color:green;">Замовленяя виконане</td>
+	  }else{<td><button class="Completed" id="@item.ProductId" onclick="ComletedOrders(@item.ProductId)">Замовленяя виконано</button></td>}
 	</tr>
    }
   </tbody>
   </table>
  </div>
- }else{<div><span>У вас немає замовлень</span></div>}
+ }else{<div class="center"><span>У вас немає замовлень</span></div>}
+ 

@@ -8,7 +8,7 @@ namespace Shop.Interfaces
 {
     public interface IProductRepo
     {
-        public List<Product> GetAll();
+        public dynamic GetProducts(int page);
         public Product GetById(int id);
         public List<Product> GetByCategory(string categoryName);
         public void CreateProduct(Product model, List<string> Titels, List<string> TitelsId,
@@ -19,5 +19,15 @@ namespace Shop.Interfaces
         public void AddProductInUserBasket(string UserId, int ProductId);
 		public dynamic RedirectToBasket(string userId);
 		public bool DetectUserProduct(string UserId,int productId);
+		public bool CheckBasket(string UserId,int productId);
+		public void DeleteProductFromBaket(int productId);
+		public void MakeOrder(OrderProduct order,float sum);
+		public dynamic OrderRequest(string UserId);
+		public dynamic UserOrders(string UserId);
+		public dynamic ProductPage(int productId);
+		public dynamic Characteristics(int productId);
+		public dynamic Requests(int productId);
+		public dynamic Search(string request);
+		public bool IsCompleted(int id);
     }
 }
