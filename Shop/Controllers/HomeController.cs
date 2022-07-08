@@ -39,10 +39,10 @@ namespace Shop.Controllers
         }
         [HttpPost]
         public IActionResult CreateProduct(List<string> Titels,List<string> TitelsId
-            ,Product product, List<IFormFile> photos)
+            ,Product product, List<IFormFile> photos,string userId)
         {
            
-            _productRepo.CreateProduct(product, Titels, TitelsId, photos);
+            _productRepo.CreateProduct(product, Titels, TitelsId, photos,userId);
             return Redirect("Index");
         }
         [HttpPost]
@@ -60,6 +60,10 @@ namespace Shop.Controllers
             Product model = new Product();
             return PartialView(model);
 
+        }
+        public IActionResult CreateNew()
+        {
+            return View();
         }
         public IActionResult ChooseCategory()
         {
@@ -158,15 +162,17 @@ namespace Shop.Controllers
 	   [HttpPost]
 	   public IActionResult AddPhoto(List<IFormFile> photos){
 		   var category = _context.Category.ToList();
+           
 		   int i=0;
 		   foreach(var item in category){
 			    byte[] imageData = null;
-                using (var binaryReader = new BinaryReader(photos[i].OpenReadStream()))
-                {
-                    imageData = binaryReader.ReadBytes((int)photos[i].Length);
-                }
-                item.Img=imageData;
-                _context.SaveChanges();
+                var fileName = photos[i].FileName.Substring(0, photos[i].FileName.LastIndexOf("."));
+                    using (var binaryReader = new BinaryReader(photos[i].OpenReadStream()))
+                    {
+                        imageData = binaryReader.ReadBytes((int)photos[i].Length);
+                    }
+                category.FirstOrDefault(c => c.Name == fileName).Img = imageData;
+                    _context.SaveChanges();
 				i++;
 		   }
 		   return Redirect("Index");

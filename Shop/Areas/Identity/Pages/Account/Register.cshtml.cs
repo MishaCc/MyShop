@@ -103,9 +103,7 @@ namespace Shop.Areas.Identity.Pages.Account
             public string UserLogin { get; set; }
             [Display(Name = "Last Name")]
             public string LastName { get; set; }
-            [Display(Name="You phone number")]
-            [MinLength(12)]
-            [RegularExpression(@"^(380)[1-9]+", ErrorMessage ="Invalid nubmer")]
+            [Display(Name = "You phone number")]
             public int PhoneNumber { get; set; }
             [Display(Name = "You name")]
             public string UserName { get; set; }
@@ -115,7 +113,6 @@ namespace Shop.Areas.Identity.Pages.Account
 
         public async Task OnGetAsync(string returnUrl = null)
         {
-           
             ReturnUrl = returnUrl;
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
         }
@@ -131,7 +128,7 @@ namespace Shop.Areas.Identity.Pages.Account
                 user.UserLogin = Input.UserLogin;
                 user.UserName = Input.UserName;
                 user.PhoneNumber = Input.PhoneNumber.ToString();
-                await _userStore.SetUserNameAsync(user, Input.UserName, CancellationToken.None);
+                await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
                 var result = await _userManager.CreateAsync(user, Input.Password);
 
@@ -142,11 +139,24 @@ namespace Shop.Areas.Identity.Pages.Account
                     var userId = await _userManager.GetUserIdAsync(user);
                     var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
                     code = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(code));
-						var callbackUrl = Url.Page(
-                        "/Home/Index"
-                           );
+                    var callbackUrl = Url.Page(
+                        "/Account/ConfirmEmail",
+                        pageHandler: null,
+                        values: new { area = "Identity", userId = userId, code = code, returnUrl = returnUrl },
+                        protocol: Request.Scheme);
 
-                    return LocalRedirect(callbackUrl);
+                    await _emailSender.SendEmailAsync(Input.Email, "Confirm your email",
+                        $"Please confirm your account by <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>clicking here</a>.");
+
+                    if (_userManager.Options.SignIn.RequireConfirmedAccount)
+                    {
+                        return RedirectToPage("RegisterConfirmation", new { email = Input.Email, returnUrl = returnUrl });
+                    }
+                    else
+                    {
+                        await _signInManager.SignInAsync(user, isPersistent: false);
+                        return LocalRedirect(returnUrl);
+                    }
                 }
                 foreach (var error in result.Errors)
                 {

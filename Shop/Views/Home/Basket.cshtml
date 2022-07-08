@@ -20,8 +20,8 @@
         {
             <div class="BasketProduct" id="@item.ProductId">
                 <img src="data:image/jpeg;base64,@(Convert.ToBase64String(repository.GetPhotoById(@item.Id)))" alt="goods">
-                <span><a href="#">@item.Name</a></span>
-                <span><img src="/img/the-sum-of.png" alt="">@item.Price</span>
+                <span><a href="/Home/ProductPage?productId=@item.ProductId">@item.Name</a></span>
+                <span class="bPrice"><img src="/img/the-sum-of.png" alt="">@item.Price$</span>
                 <div class="action">
                     <a href="/Home/СheckoutPage?ProductId=@item.ProductId">Оформити замовлення</a>
                     <a href="#" onclick="DeleteProductFromBasket(@item.ProductId)">Видалити</a>

@@ -8,117 +8,117 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Shop
 build_property.RootNamespace = Shop
-build_property.ProjectDir = C:\Users\bekke\source\repos\Shop\Shop\
+build_property.ProjectDir = C:\Users\Админ\Desktop\ShopClone\MyShop\Shop\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\bekke\source\repos\Shop\Shop
+build_property.MSBuildProjectDirectory = C:\Users\Админ\Desktop\ShopClone\MyShop\Shop
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/bekke/source/repos/Shop/Shop/Areas/Identity/Pages/Account/Login.cshtml]
+[C:/Users/Админ/Desktop/ShopClone/MyShop/Shop/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bekke/source/repos/Shop/Shop/Areas/Identity/Pages/Account/Logout.cshtml]
+[C:/Users/Админ/Desktop/ShopClone/MyShop/Shop/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bekke/source/repos/Shop/Shop/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/Users/Админ/Desktop/ShopClone/MyShop/Shop/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bekke/source/repos/Shop/Shop/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[C:/Users/Админ/Desktop/ShopClone/MyShop/Shop/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bekke/source/repos/Shop/Shop/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[C:/Users/Админ/Desktop/ShopClone/MyShop/Shop/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bekke/source/repos/Shop/Shop/Areas/Identity/Pages/_ViewImports.cshtml]
+[C:/Users/Админ/Desktop/ShopClone/MyShop/Shop/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bekke/source/repos/Shop/Shop/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/Админ/Desktop/ShopClone/MyShop/Shop/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bekke/source/repos/Shop/Shop/Views/Home/Basket.cshtml]
+[C:/Users/Админ/Desktop/ShopClone/MyShop/Shop/Views/Home/Basket.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCYXNrZXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bekke/source/repos/Shop/Shop/Views/Home/Catalog.cshtml]
+[C:/Users/Админ/Desktop/ShopClone/MyShop/Shop/Views/Home/Catalog.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXRhbG9nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bekke/source/repos/Shop/Shop/Views/Home/Characteristics.cshtml]
+[C:/Users/Админ/Desktop/ShopClone/MyShop/Shop/Views/Home/Characteristics.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaGFyYWN0ZXJpc3RpY3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bekke/source/repos/Shop/Shop/Views/Home/ChooseCategory.cshtml]
+[C:/Users/Админ/Desktop/ShopClone/MyShop/Shop/Views/Home/ChooseCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaG9vc2VDYXRlZ29yeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bekke/source/repos/Shop/Shop/Views/Home/CreateProductPage.cshtml]
+[C:/Users/Админ/Desktop/ShopClone/MyShop/Shop/Views/Home/CreateProductPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVhdGVQcm9kdWN0UGFnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bekke/source/repos/Shop/Shop/Views/Home/Index.cshtml]
+[C:/Users/Админ/Desktop/ShopClone/MyShop/Shop/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bekke/source/repos/Shop/Shop/Views/Home/OrderRequest.cshtml]
+[C:/Users/Админ/Desktop/ShopClone/MyShop/Shop/Views/Home/OrderRequest.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxPcmRlclJlcXVlc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bekke/source/repos/Shop/Shop/Views/Home/Privacy.cshtml]
+[C:/Users/Админ/Desktop/ShopClone/MyShop/Shop/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bekke/source/repos/Shop/Shop/Views/Home/ProductPage.cshtml]
+[C:/Users/Админ/Desktop/ShopClone/MyShop/Shop/Views/Home/ProductPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9kdWN0UGFnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bekke/source/repos/Shop/Shop/Views/Home/Requests.cshtml]
+[C:/Users/Админ/Desktop/ShopClone/MyShop/Shop/Views/Home/Requests.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZXF1ZXN0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bekke/source/repos/Shop/Shop/Views/Home/Search.cshtml]
+[C:/Users/Админ/Desktop/ShopClone/MyShop/Shop/Views/Home/Search.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWFyY2guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bekke/source/repos/Shop/Shop/Views/Home/UserOrders.cshtml]
+[C:/Users/Админ/Desktop/ShopClone/MyShop/Shop/Views/Home/UserOrders.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVc2VyT3JkZXJzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bekke/source/repos/Shop/Shop/Views/Home/СheckoutPage.cshtml]
+[C:/Users/Админ/Desktop/ShopClone/MyShop/Shop/Views/Home/СheckoutPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVzQoWhlY2tvdXRQYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bekke/source/repos/Shop/Shop/Views/Shared/Error.cshtml]
+[C:/Users/Админ/Desktop/ShopClone/MyShop/Shop/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bekke/source/repos/Shop/Shop/Views/Shared/TypePartial.cshtml]
+[C:/Users/Админ/Desktop/ShopClone/MyShop/Shop/Views/Shared/TypePartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFR5cGVQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bekke/source/repos/Shop/Shop/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/Админ/Desktop/ShopClone/MyShop/Shop/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bekke/source/repos/Shop/Shop/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Админ/Desktop/ShopClone/MyShop/Shop/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bekke/source/repos/Shop/Shop/Views/_ViewImports.cshtml]
+[C:/Users/Админ/Desktop/ShopClone/MyShop/Shop/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bekke/source/repos/Shop/Shop/Views/_ViewStart.cshtml]
+[C:/Users/Админ/Desktop/ShopClone/MyShop/Shop/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bekke/source/repos/Shop/Shop/Views/Shared/_Layout.cshtml]
+[C:/Users/Админ/Desktop/ShopClone/MyShop/Shop/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-bv1m2l6qkp

@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Shop.Areas.Identity.Data;
 
@@ -11,9 +12,10 @@ using Shop.Areas.Identity.Data;
 namespace Shop.Migrations
 {
     [DbContext(typeof(ApplicationContext))]
-    partial class ApplicationContextModelSnapshot : ModelSnapshot
+    [Migration("20220707090952_Initial2")]
+    partial class Initial2
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -253,7 +255,7 @@ namespace Shop.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Basket", (string)null);
+                    b.ToTable("Basket");
                 });
 
             modelBuilder.Entity("Shop.Models.Category", b =>
@@ -272,7 +274,7 @@ namespace Shop.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Category", (string)null);
+                    b.ToTable("Category");
                 });
 
             modelBuilder.Entity("Shop.Models.Complain", b =>
@@ -297,7 +299,7 @@ namespace Shop.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Complains", (string)null);
+                    b.ToTable("Complains");
                 });
 
             modelBuilder.Entity("Shop.Models.DeviceType", b =>
@@ -314,7 +316,7 @@ namespace Shop.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("DeviceType", (string)null);
+                    b.ToTable("DeviceType");
                 });
 
             modelBuilder.Entity("Shop.Models.OrderProduct", b =>
@@ -353,7 +355,7 @@ namespace Shop.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("OrderProducts", (string)null);
+                    b.ToTable("OrderProducts");
                 });
 
             modelBuilder.Entity("Shop.Models.Photo", b =>
@@ -372,7 +374,7 @@ namespace Shop.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Photo", (string)null);
+                    b.ToTable("Photo");
                 });
 
             modelBuilder.Entity("Shop.Models.Product", b =>
@@ -401,7 +403,7 @@ namespace Shop.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Product", (string)null);
+                    b.ToTable("Product");
                 });
 
             modelBuilder.Entity("Shop.Models.Requests", b =>
@@ -434,7 +436,7 @@ namespace Shop.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Requests", (string)null);
+                    b.ToTable("Requests");
                 });
 
             modelBuilder.Entity("Shop.Models.Specification", b =>
@@ -453,7 +455,7 @@ namespace Shop.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Specification", (string)null);
+                    b.ToTable("Specification");
                 });
 
             modelBuilder.Entity("Shop.Models.SpecificationDescription", b =>
@@ -475,7 +477,7 @@ namespace Shop.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Descriptions", (string)null);
+                    b.ToTable("Descriptions");
                 });
 
             modelBuilder.Entity("Shop.Models.UserDeliveryRequest", b =>
@@ -499,7 +501,7 @@ namespace Shop.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("UserDeliveryRequests", (string)null);
+                    b.ToTable("UserDeliveryRequests");
                 });
 
             modelBuilder.Entity("Shop.Models.UserOreders", b =>
@@ -525,7 +527,7 @@ namespace Shop.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("UserOreders", (string)null);
+                    b.ToTable("UserOreders");
                 });
 
             modelBuilder.Entity("Shop.Models.UsersPostedProduct", b =>
@@ -545,7 +547,7 @@ namespace Shop.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("PostedProducts", (string)null);
+                    b.ToTable("PostedProducts");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

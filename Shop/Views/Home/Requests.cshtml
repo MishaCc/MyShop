@@ -18,7 +18,7 @@
 	   <input type="hidden" name="UserId" value="@UserManager.GetUserId(User)"/>
        <input type ="hidden" name="ProductId" value="@Model.ProductId"/>
 	   <label for="description">Коментар</label>
-	    <textarea type="text" id="description" name="Description" placeholder="Коментар.." required minlength="15">
+	    <textarea  id="description" name="Description" placeholder="Коментар.." required minlength="15">
 		</textarea>
 		 <label for="Adventages">Переваги</label>
 	    <textarea id="Adventages" name="Adventages" placeholder="Переваги..." required minlength="6">
@@ -41,7 +41,7 @@
 
             {
                 <span>Залиште свій відгук про цей товар</span>
-                <button>Написати відгук</button>
+                <button id="writeRequest">Написати відгук</button>
             }
     }else{<span>Щоб написати відгук про товар потрбіно увійти або зареєструватися</span>}
     </div>

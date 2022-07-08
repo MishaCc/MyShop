@@ -1,6 +1,12 @@
 ﻿@model dynamic
-
-
+@using Microsoft.AspNetCore.Identity
+@using Shop.Areas.Identity.Data
+@using Shop.Interfaces
+@inject IProductRepo repository
+@inject UserManager<ShopUser> UserManager
+@{
+    int i=0;
+}
 
 
 @if(@Model.User!=null){
@@ -10,16 +16,19 @@
     <a href="/Home/Requests?productId=@Model.Productid" class="product-menu" id="reviews">Відгуки</a>
 </div>
 <div class="product-wrap" id="product-wrap">
-    	  <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css"/>
+    	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
                 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 <div class="product-photo">
         <div class="product-photos">
-            <div id="carouselExampleControls" class="carousel slide carousel-dark" data-bs-touch="false" data-bs-interval="false">
+            <div id="carouselExampleControls" class="carousel slide carousel-dark">
                 <div class="carousel-inner">
 				@foreach(var photo in Model.Photo){
+                    @if(i==0){
                     <div class="carousel-item active">
                         <img src="data:image/jpeg;base64,@(Convert.ToBase64String(photo.Img))" class="d-block w-130" alt="...">
-                    </div>
+                    </div>}else{ <div class="carousel-item">
+                        <img src="data:image/jpeg;base64,@(Convert.ToBase64String(photo.Img))" class="d-block w-130" alt="...">
+                    </div> }
 					}
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -36,8 +45,13 @@
         <div class="info">
             <div class="product-price">
                 <span><img src="/img/the-sum-of.png" alt="">@item.Price</span>
-                <a href="#"><span><img src="/img/trolley.png" alt="">В коpзину</span></a>
-                <a href="#"><span><img src="/img/search.png" alt="">Оформити замовлення</span></a>
+                @if(repository.DetectUserProduct(@UserManager.GetUserId(User),@Model.Productid)){
+                    <a href="#"><span><img src="/img/trolley.png" alt="">Ваш продукт</span></a>
+                    <a href="/Home/Index"><span><img src="/img/search.png" alt="">На головну</span></a>
+                }else{<a onclick="AddProduct(@Model.Productid,'@UserManager.GetUserId(User)')"><span><img src="/img/trolley.png" alt="">В коpзину</span></a>
+                <a href="/Home/СheckoutPage?ProductId=@Model.Productid"><span><img src="/img/search.png" alt="">Оформити замовлення</span></a>
+                }
+ 
             </div>
             <div class="garantee">
                 <span>Додаткові функції</span>

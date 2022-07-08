@@ -12,9 +12,7 @@ namespace Shop.Interfaces
         public Product GetById(int id);
         public List<Product> GetByCategory(string categoryName);
         public void CreateProduct(Product model, List<string> Titels, List<string> TitelsId,
-            List<IFormFile> photos);
-        public void UpdateProduct(Product model);
-        public void DeleteProduct(int id);
+            List<IFormFile> photos,string userId);
         public byte[] GetPhotoById(int id);
         public void AddProductInUserBasket(string UserId, int ProductId);
 		public dynamic RedirectToBasket(string userId);

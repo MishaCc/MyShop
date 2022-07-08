@@ -21,9 +21,15 @@ builder.Services.AddScoped<Product>();
 builder.Services.AddRazorPages();
 
 // Add services to the container.
+builder.Services.Configure<IdentityOptions>(options =>
+{
 
+    // User settings.
+    options.User.AllowedUserNameCharacters =
+    "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._@+àôáâãäåæçè¿³éêëìíîïğñòóôõö÷øùáşÿÀÔÁÂÃÄÅÆÇÈ¯²ÉÊËÌÍÎÏĞÑÒÓÔÕÖ×ØÙÁŞß";
+    
+});
 var app = builder.Build();
-
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {

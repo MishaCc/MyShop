@@ -31,14 +31,19 @@ let card = document.getElementById('card');
  let CashRadio = document.getElementById('Cash');
  let loginP = document.getElementById('showLogin');
  let logP = document.getElementById('password');
- window.addEventListener('click',function(event){
-	 if(event.target.id==loginP.id){
-	   logP.setAttribute('type', 'text');
-	 }else {
-        logP.setAttribute('type', 'password');
+
+window.addEventListener('click', function (event) {
+    if (event.target.id == showRequest.id) {
+        requestForm.style.display = 'block';
     }
-    
- });
+    if (event.target.id == exitRf.id) {
+        requestForm.style.display = 'none';
+    }
+
+    if (event.target.id == exitCp.id) {
+        сomplainForm.style.display = 'none';
+    }
+});
 window.addEventListener('click',function(event){
 	 if(event.target.id==CashRadio.id){
   	   card.style.display ='none';
@@ -47,19 +52,9 @@ window.addEventListener('click',function(event){
   	   card.style.display ='block';
 	 }
 	
- });
-window.addEventListener('click',function(event){
-	if(event.target.id==showRequest.id){
-		requestForm.style.display='block';
-	}
-	if(event.target.id==exitRf.id){
-		requestForm.style.display='none';
-	}
-
-	if(event.target.id==exitCp.id){
-		сomplainForm.style.display='none';
-	}
 });
+
+
  let completed = document.getElementsByClassName('Completed');
  function ComletedOrders(id){
  $.ajax({
@@ -121,14 +116,13 @@ window.addEventListener('click', function (event) {
 });
 window.addEventListener('click', function (event) {
     if (event.target.id === menu.id || event.target.classList.contains('menu-line')) {
+        settings.style.display = "block";
         settings.style.animationName = 'slidein';
         settings.style.animationDuration ='0.5s';
         settings.style.transform ='translateX(0px)';
     }
     if(event.target.id===exit.id){
-        settings.style.animationName = 'slidein2';
-        settings.style.animationDuration ='0.5s';
-        settings.style.transform ='translateX(-345px)';
+        settings.style.display = "none";
     }
 });
 function GetId(id) {

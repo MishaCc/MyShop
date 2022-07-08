@@ -1,6 +1,8 @@
 ﻿@model dynamic
 @using Shop.Models
-
+@using Microsoft.AspNetCore.Identity
+@using Shop.Areas.Identity.Data
+@inject UserManager<ShopUser> UserManager
 
 
 <div class="CreteProduct">
@@ -23,6 +25,7 @@
                 }
              }
       <input type="file" value="Product photo" name="photos" multiple required />
+      <input type="hidden" value="@UserManager.GetUserId(User)" name="userId"/>
     <button type="submit">Submit</button>
     <div>
 </form>

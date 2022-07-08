@@ -13,7 +13,7 @@ namespace Shop.MyServices
             _context = context;
         }
         public void CreateProduct(Product product, List<string> Titels, List<string> TitelsId,
-            List<IFormFile> photos)
+            List<IFormFile> photos,string userId)
         {
             _context.Product.Add(product);
             _context.SaveChanges();
@@ -37,12 +37,15 @@ namespace Shop.MyServices
                 _context.Photo.Add(new Photo() { Img = imageData, ProductId = product.Id });
                 _context.SaveChanges();
             }
+            _context.PostedProducts.Add(new UsersPostedProduct()
+            {
+                ProductID = product.Id,
+                UserId = userId
+            });
+            _context.SaveChanges();
         }
 
-        public void DeleteProduct(int id)
-        {
-            throw new NotImplementedException();
-        }
+      
 
         public dynamic GetProducts(int page)
         {
@@ -219,6 +222,7 @@ namespace Shop.MyServices
 			dynamic model = new ExpandoObject();
 			var result = _context.Product.FirstOrDefault(p=>p.Id==productId);
 			if(result!=null){
+                
              model.Photo = _context.Photo.Where(ph => ph.ProductId == productId);
              model.User = from pp in _context.PostedProducts
                          join u in _context.Users on pp.UserId equals u.Id
@@ -278,16 +282,14 @@ namespace Shop.MyServices
 		}
 		public dynamic Search(string request){
 		   dynamic model = new ExpandoObject();
-           model=null;
+            model = null;
 		   var category = _context.Category.ToList().FirstOrDefault(c=>c.Name==request,null);
+            var name = _context.Product.ToList().FirstOrDefault(p=>p.Name==request,null);
             if (category != null)
             {
                 model = _context.Product.Where(p => p.Category == category.Id);
             }
-            else
-            {
-                model = _context.Product.Where(p => p.Name == request);
-            }
+            else if(name!=null) { model = _context.Product.Where(p => p.Name == request); }
 			return model;
 		}
 		public bool IsCompleted(int id){
@@ -300,9 +302,6 @@ namespace Shop.MyServices
 		
 			return false;
 		}
-        public void UpdateProduct(Product model)
-        {
-            throw new NotImplementedException();
-        }
+        
     }
 }

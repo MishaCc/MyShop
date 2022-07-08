@@ -7,7 +7,7 @@
  <div class="form" id="regist">
     <form asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form-elements" id="registerForm">
          <label for="name">Імя</label>
-        <input asp-for="Input.UserName" autocomplete="UserName" aria-required="true" id="name"/>
+        <input asp-for="Input.UserName" autocomplete="off" aria-required="true" id="name"/>
         <label for="surname">Призвіще</label>
         <input asp-for="Input.LastName"  autocomplete="LastName" aria-required="true" id="surname"/>
         <label for="surname">Логін</label>

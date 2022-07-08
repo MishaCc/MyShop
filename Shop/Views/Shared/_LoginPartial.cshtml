@@ -9,6 +9,7 @@
 
 @if (SignInManager.IsSignedIn(User))
 {
+   
     <div class="settings" id="settings">
         <div class="exit">
             <span>Ви увійшли під іменем @UserManager.GetUserName(User)</span>
@@ -27,11 +28,11 @@
      <span>380673283244</span>
     </div>
 </div>
- <div class="menu" id="menu">
+<div class="menu" id="menu">
      <span class="menu-line"></span>
      <span class="menu-line"></span>
      <span class="menu-line"></span>
- </div>
+    </div>
     <div class="catalog">
         <a href="/Home/Index"><img img src="/img/catalog.png" alt="catalog">Головна</a>
     </div>

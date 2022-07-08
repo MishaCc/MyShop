@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zfoYjrJD7eUGDbr874CtoG0vQ9/7Zef2SdadSYZjCbc=",
+  "Hash": "miRF3/osWa22JHq1imsgqZ401W2NY4VvQAU/iyKU01k=",
   "Source": "Shop",
   "BasePath": "_content/Shop",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Shop\\wwwroot",
       "Source": "Shop",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\css\\site.css",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\css\\site.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\css\\site.css"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\favicon.ico",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\favicon.ico",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\favicon.ico"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\js\\site.js",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\js\\site.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -65,13 +65,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\js\\site.js"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -82,13 +82,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -99,13 +99,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -116,13 +116,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -133,13 +133,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -150,13 +150,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -167,13 +167,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -184,13 +184,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -201,13 +201,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -218,13 +218,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -235,13 +235,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -252,13 +252,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -269,13 +269,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -286,13 +286,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -303,13 +303,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -320,13 +320,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -337,13 +337,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -354,13 +354,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -371,13 +371,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -388,13 +388,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -405,13 +405,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -422,13 +422,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -439,13 +439,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -456,13 +456,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -473,13 +473,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -490,13 +490,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -507,13 +507,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -524,13 +524,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -541,13 +541,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -558,13 +558,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -575,13 +575,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -592,13 +592,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -609,13 +609,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -626,13 +626,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -643,13 +643,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -660,13 +660,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -677,13 +677,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -694,13 +694,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -711,13 +711,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -728,13 +728,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -745,13 +745,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -762,13 +762,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -779,13 +779,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -796,13 +796,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -813,13 +813,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\LICENSE",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -830,13 +830,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\LICENSE"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -847,13 +847,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -864,13 +864,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -881,13 +881,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -898,13 +898,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -915,13 +915,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.js"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -932,13 +932,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -949,13 +949,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.js"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -966,13 +966,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -983,13 +983,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation\\LICENSE.md"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1000,13 +1000,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1017,13 +1017,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1034,13 +1034,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+      "OriginalItemSpec": "C:\\Users\\Админ\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.6\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Shop.styles.css",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Shop.styles.css",
       "SourceId": "Shop",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Shop",
       "RelativePath": "Shop.styles.css",
       "AssetKind": "All",
@@ -1051,13 +1051,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Shop.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Shop.styles.css"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Shop.bundle.scp.css",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Shop.bundle.scp.css",
       "SourceId": "Shop",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Shop",
       "RelativePath": "Shop.bundle.scp.css",
       "AssetKind": "All",
@@ -1068,13 +1068,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Shop.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Shop.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\css\\site.css",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\css\\style.css",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\css\\style.css",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "css/style.css",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\favicon.ico",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\img\\252192898.jpg",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\img\\252192898.jpg",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "img/252192898.jpg",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\img\\252192898.jpg"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\img\\262936877.jpg",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\img\\262936877.jpg",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "img/262936877.jpg",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\img\\262936877.jpg"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\img\\catalog.png",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\img\\catalog.png",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "img/catalog.png",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\img\\catalog.png"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\img\\close.png",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\img\\close.png",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "img/close.png",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\img\\close.png"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\img\\delete.png",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\img\\delete.png",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "img/delete.png",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\img\\delete.png"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\img\\dollar.png",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\img\\dollar.png",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "img/dollar.png",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\img\\dollar.png"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\img\\exit.png",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\img\\exit.png",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "img/exit.png",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\img\\exit.png"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\img\\filter.png",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\img\\filter.png",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "img/filter.png",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\img\\filter.png"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\img\\filters.png",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\img\\filters.png",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "img/filters.png",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\img\\filters.png"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\img\\goods.jpeg",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\img\\goods.jpeg",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "img/goods.jpeg",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\img\\goods.jpeg"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\img\\gross.png",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\img\\gross.png",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "img/gross.png",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\img\\gross.png"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\img\\heart.png",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\img\\heart.png",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "img/heart.png",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\img\\heart.png"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\img\\history.png",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\img\\history.png",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "img/history.png",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\img\\history.png"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\img\\laptop.jpg",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\img\\laptop.jpg",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "img/laptop.jpg",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\img\\laptop.jpg"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\img\\log-in.png",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\img\\log-in.png",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "img/log-in.png",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\img\\log-in.png"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\img\\original.jpg",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\img\\original.jpg",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "img/original.jpg",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\img\\original.jpg"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\img\\pc.png",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\img\\pc.png",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "img/pc.png",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\img\\pc.png"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\img\\pc1.jpg",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\img\\pc1.jpg",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "img/pc1.jpg",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\img\\pc1.jpg"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\img\\pc2.jpg",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\img\\pc2.jpg",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "img/pc2.jpg",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\img\\pc2.jpg"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\img\\pr2.jpg",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\img\\pr2.jpg",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "img/pr2.jpg",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\img\\pr2.jpg"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\img\\price.png",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\img\\price.png",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "img/price.png",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\img\\price.png"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\img\\price2.png",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\img\\price2.png",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "img/price2.png",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\img\\price2.png"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\img\\search.png",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\img\\search.png",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "img/search.png",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\img\\search.png"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\img\\telegram.png",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\img\\telegram.png",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "img/telegram.png",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\img\\telegram.png"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\img\\the-sum-of.png",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\img\\the-sum-of.png",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "img/the-sum-of.png",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\img\\the-sum-of.png"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\img\\tov.jpg",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\img\\tov.jpg",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "img/tov.jpg",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\img\\tov.jpg"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\img\\trash.png",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\img\\trash.png",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "img/trash.png",
       "AssetKind": "All",
@@ -1581,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\img\\trash.png"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\img\\trolley.png",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\img\\trolley.png",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "img/trolley.png",
       "AssetKind": "All",
@@ -1598,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\img\\trolley.png"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\img\\viber.png",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\img\\viber.png",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "img/viber.png",
       "AssetKind": "All",
@@ -1615,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\img\\viber.png"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\img\\whatsapp.png",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\img\\whatsapp.png",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "img/whatsapp.png",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\img\\whatsapp.png"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\js\\animation.js",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\js\\animation.js",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "js/animation.js",
       "AssetKind": "All",
@@ -1649,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\js\\animation.js"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\js\\site.js",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -1666,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1683,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1700,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1717,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1734,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1751,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1768,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1785,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1802,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1819,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1836,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1853,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1870,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1887,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1904,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1921,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1938,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1972,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1989,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -2006,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -2023,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -2040,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -2057,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -2074,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -2091,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -2108,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -2125,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -2142,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -2159,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -2176,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -2193,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -2210,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -2227,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -2244,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -2261,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -2278,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -2295,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -2312,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -2329,10 +2329,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -2346,10 +2346,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2363,10 +2363,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2380,10 +2380,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2397,10 +2397,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2414,10 +2414,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\scss\\mystyle.css",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\scss\\mystyle.css",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/bootstrap/dist/scss/mystyle.css",
       "AssetKind": "All",
@@ -2431,10 +2431,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\mystyle.css"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\scss\\mystyle.css.map",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\scss\\mystyle.css.map",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/bootstrap/dist/scss/mystyle.css.map",
       "AssetKind": "All",
@@ -2448,10 +2448,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\mystyle.css.map"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\scss\\mystyle.scss",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\bootstrap\\dist\\scss\\mystyle.scss",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/bootstrap/dist/scss/mystyle.scss",
       "AssetKind": "All",
@@ -2465,10 +2465,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\scss\\mystyle.scss"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2482,10 +2482,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2499,10 +2499,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2516,10 +2516,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2533,10 +2533,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -2550,10 +2550,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2567,10 +2567,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2584,10 +2584,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2601,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2618,10 +2618,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2635,10 +2635,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2652,10 +2652,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2669,10 +2669,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Shop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bekke\\source\\repos\\Shop\\Shop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Админ\\Desktop\\ShopClone\\MyShop\\Shop\\wwwroot\\",
       "BasePath": "_content/Shop",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
